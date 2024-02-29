@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>2FAS Auth</string>
+	<string>Anexia Authenticator</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
