@@ -1,6 +1,6 @@
-# About The Project
+# Anexia Authenticator for iOS
 
-Anexia Authenticator is based on the project [2FAS iOS](https://github.com/twofas/2fas-ios) and provides you with an extra layer of security for all your online accounts. Protect your Anexia accounts with Anexia Authenticator. 
+Anexia Authenticator is an open-source Time-based One-Time Password (TOTP) app designed to secure your online accounts. It generates time-sensitive codes that act as a second factor for your logins, significantly reducing the risk of unauthorized access. Anexia Authenticator is based on the project [2FAS iOS](https://github.com/twofas/2fas-ios).
 
 ## Features
 
@@ -41,5 +41,4 @@ Because the project is a clone of the 2fas project, if you would like to contrib
 
 ## License
 
-Copyright (c) Two Factor Authentication Service, Inc. All rights reserved.
 This project is published with the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
