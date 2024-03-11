@@ -60,7 +60,7 @@ extension MainRepositoryImpl {
     }
     
     func fetchNewVersion(completion: @escaping (Result<FetchNewVersionAppInfo, Error>) -> Void) {
-        networkStack.appVersion.checkVersion(for: "com.twofas.org") { result in
+        networkStack.appVersion.checkVersion(for: "at.anexia.authenticator") { result in
             switch result {
             case .success(let appInfo):
                 completion(.success(

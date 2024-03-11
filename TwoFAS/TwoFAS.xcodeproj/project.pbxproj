@@ -826,29 +826,9 @@
 		C2E53B4E2B62DDCB008E1E70 /* Content.h in Headers */ = {isa = PBXBuildFile; fileRef = C2E53B4D2B62DDCB008E1E70 /* Content.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2E53B512B62DDCB008E1E70 /* Content.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E53B4B2B62DDCB008E1E70 /* Content.framework */; };
 		C2E53B522B62DDCB008E1E70 /* Content.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2E53B4B2B62DDCB008E1E70 /* Content.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C2E53B6F2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database0.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B572B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database0.swift */; };
-		C2E53B702B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database0.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B582B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database0.swift */; };
-		C2E53B712B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B592B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database2.swift */; };
-		C2E53B722B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B5A2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database2.swift */; };
-		C2E53B732B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B5B2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database6.swift */; };
-		C2E53B742B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B5C2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database6.swift */; };
-		C2E53B752B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B5D2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database4.swift */; };
-		C2E53B762B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B5E2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database4.swift */; };
-		C2E53B772B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B5F2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database3.swift */; };
-		C2E53B782B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B602B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database3.swift */; };
 		C2E53B792B62DDFB008E1E70 /* IconDescriptionDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B612B62DDFB008E1E70 /* IconDescriptionDatabase.swift */; };
-		C2E53B7A2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B622B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database1.swift */; };
-		C2E53B7B2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B632B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database1.swift */; };
-		C2E53B7C2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B642B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database5.swift */; };
-		C2E53B7D2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B652B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database5.swift */; };
-		C2E53B7E2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database7.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B662B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database7.swift */; };
-		C2E53B7F2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database7.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B672B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database7.swift */; };
-		C2E53B802B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database9.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B682B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database9.swift */; };
-		C2E53B812B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database9.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B692B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database9.swift */; };
 		C2E53B822B62DDFB008E1E70 /* ServiceDefinitionDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B6A2B62DDFB008E1E70 /* ServiceDefinitionDatabase.swift */; };
 		C2E53B832B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B6B2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database.swift */; };
-		C2E53B842B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database8.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B6C2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database8.swift */; };
-		C2E53B852B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database8.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B6D2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database8.swift */; };
 		C2E53B862B62DDFC008E1E70 /* ServiceDefinitionDatabaseImpl+Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E53B6E2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database.swift */; };
 		C2E53B892B62DE14008E1E70 /* Assets.car in Resources */ = {isa = PBXBuildFile; fileRef = C2E53B882B62DE13008E1E70 /* Assets.car */; };
 		C2E53B8A2B62DE33008E1E70 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E53AC52B62DD6C008E1E70 /* Common.framework */; };
@@ -1712,7 +1692,7 @@
 		C235A010298FD97D008F4FD0 /* MainSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSplitViewController.swift; sourceTree = "<group>"; };
 		C235A012298FE785008F4FD0 /* MainMenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuPresenter.swift; sourceTree = "<group>"; };
 		C235FA75229DAED80098F8E9 /* GridViewItemProviderWriting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewItemProviderWriting.swift; sourceTree = "<group>"; };
-		C23666731FB2644900989ACA /* TwoFAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoFAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23666731FB2644900989ACA /* Anexia Authenticator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anexia Authenticator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23666761FB2644900989ACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C236667E1FB2644900989ACA /* TwoFAS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TwoFAS.xcdatamodel; sourceTree = "<group>"; };
 		C23666801FB2644900989ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -2441,29 +2421,9 @@
 		C2E53B0F2B62DDAF008E1E70 /* TintColor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TintColor.xcassets; sourceTree = "<group>"; };
 		C2E53B4B2B62DDCB008E1E70 /* Content.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Content.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E53B4D2B62DDCB008E1E70 /* Content.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Content.h; sourceTree = "<group>"; };
-		C2E53B572B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IconDescriptionDatabaseImpl+Database0.swift"; sourceTree = "<group>"; };
-		C2E53B582B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServiceDefinitionDatabaseImpl+Database0.swift"; sourceTree = "<group>"; };
-		C2E53B592B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServiceDefinitionDatabaseImpl+Database2.swift"; sourceTree = "<group>"; };
-		C2E53B5A2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IconDescriptionDatabaseImpl+Database2.swift"; sourceTree = "<group>"; };
-		C2E53B5B2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServiceDefinitionDatabaseImpl+Database6.swift"; sourceTree = "<group>"; };
-		C2E53B5C2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IconDescriptionDatabaseImpl+Database6.swift"; sourceTree = "<group>"; };
-		C2E53B5D2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IconDescriptionDatabaseImpl+Database4.swift"; sourceTree = "<group>"; };
-		C2E53B5E2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServiceDefinitionDatabaseImpl+Database4.swift"; sourceTree = "<group>"; };
-		C2E53B5F2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IconDescriptionDatabaseImpl+Database3.swift"; sourceTree = "<group>"; };
-		C2E53B602B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServiceDefinitionDatabaseImpl+Database3.swift"; sourceTree = "<group>"; };
 		C2E53B612B62DDFB008E1E70 /* IconDescriptionDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconDescriptionDatabase.swift; sourceTree = "<group>"; };
-		C2E53B622B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServiceDefinitionDatabaseImpl+Database1.swift"; sourceTree = "<group>"; };
-		C2E53B632B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IconDescriptionDatabaseImpl+Database1.swift"; sourceTree = "<group>"; };
-		C2E53B642B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServiceDefinitionDatabaseImpl+Database5.swift"; sourceTree = "<group>"; };
-		C2E53B652B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IconDescriptionDatabaseImpl+Database5.swift"; sourceTree = "<group>"; };
-		C2E53B662B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IconDescriptionDatabaseImpl+Database7.swift"; sourceTree = "<group>"; };
-		C2E53B672B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServiceDefinitionDatabaseImpl+Database7.swift"; sourceTree = "<group>"; };
-		C2E53B682B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IconDescriptionDatabaseImpl+Database9.swift"; sourceTree = "<group>"; };
-		C2E53B692B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServiceDefinitionDatabaseImpl+Database9.swift"; sourceTree = "<group>"; };
 		C2E53B6A2B62DDFB008E1E70 /* ServiceDefinitionDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceDefinitionDatabase.swift; sourceTree = "<group>"; };
 		C2E53B6B2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IconDescriptionDatabaseImpl+Database.swift"; sourceTree = "<group>"; };
-		C2E53B6C2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServiceDefinitionDatabaseImpl+Database8.swift"; sourceTree = "<group>"; };
-		C2E53B6D2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IconDescriptionDatabaseImpl+Database8.swift"; sourceTree = "<group>"; };
 		C2E53B6E2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServiceDefinitionDatabaseImpl+Database.swift"; sourceTree = "<group>"; };
 		C2E53B882B62DE13008E1E70 /* Assets.car */ = {isa = PBXFileReference; lastKnownFileType = file; path = Assets.car; sourceTree = "<group>"; };
 		C2E7C3552ADB02FE00478D89 /* CommonUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -4004,7 +3964,7 @@
 		C23666741FB2644900989ACA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C23666731FB2644900989ACA /* TwoFAS.app */,
+				C23666731FB2644900989ACA /* Anexia Authenticator.app */,
 				C200E49A1FB3911B00D7C748 /* Storage.framework */,
 				C21F05BA1FC761450038E28F /* PushNotifications.framework */,
 				C28633CB1FFABD2200C8F4B4 /* TwoFASAuth.appex */,
@@ -7049,29 +7009,9 @@
 		C2E53B562B62DDFB008E1E70 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C2E53B572B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database0.swift */,
-				C2E53B582B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database0.swift */,
-				C2E53B592B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database2.swift */,
-				C2E53B5A2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database2.swift */,
-				C2E53B5B2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database6.swift */,
-				C2E53B5C2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database6.swift */,
-				C2E53B5D2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database4.swift */,
-				C2E53B5E2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database4.swift */,
-				C2E53B5F2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database3.swift */,
-				C2E53B602B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database3.swift */,
 				C2E53B612B62DDFB008E1E70 /* IconDescriptionDatabase.swift */,
-				C2E53B622B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database1.swift */,
-				C2E53B632B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database1.swift */,
-				C2E53B642B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database5.swift */,
-				C2E53B652B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database5.swift */,
-				C2E53B662B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database7.swift */,
-				C2E53B672B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database7.swift */,
-				C2E53B682B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database9.swift */,
-				C2E53B692B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database9.swift */,
 				C2E53B6A2B62DDFB008E1E70 /* ServiceDefinitionDatabase.swift */,
 				C2E53B6B2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database.swift */,
-				C2E53B6C2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database8.swift */,
-				C2E53B6D2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database8.swift */,
 				C2E53B6E2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database.swift */,
 			);
 			path = Sources;
@@ -7680,7 +7620,7 @@
 			packageProductDependencies = (
 			);
 			productName = TwoFAS;
-			productReference = C23666731FB2644900989ACA /* TwoFAS.app */;
+			productReference = C23666731FB2644900989ACA /* Anexia Authenticator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C241D444278B9E0E00D7C604 /* NetworkStack */ = {
@@ -9209,30 +9149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2E53B7D2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database5.swift in Sources */,
-				C2E53B7E2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database7.swift in Sources */,
-				C2E53B7C2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database5.swift in Sources */,
-				C2E53B772B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database3.swift in Sources */,
-				C2E53B742B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database6.swift in Sources */,
-				C2E53B842B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database8.swift in Sources */,
-				C2E53B722B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database2.swift in Sources */,
 				C2E53B792B62DDFB008E1E70 /* IconDescriptionDatabase.swift in Sources */,
-				C2E53B6F2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database0.swift in Sources */,
-				C2E53B712B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database2.swift in Sources */,
 				C2E53B822B62DDFB008E1E70 /* ServiceDefinitionDatabase.swift in Sources */,
-				C2E53B732B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database6.swift in Sources */,
-				C2E53B762B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database4.swift in Sources */,
-				C2E53B802B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database9.swift in Sources */,
-				C2E53B752B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database4.swift in Sources */,
-				C2E53B7B2B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database1.swift in Sources */,
 				C2E53B862B62DDFC008E1E70 /* ServiceDefinitionDatabaseImpl+Database.swift in Sources */,
-				C2E53B782B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database3.swift in Sources */,
-				C2E53B812B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database9.swift in Sources */,
-				C2E53B852B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database8.swift in Sources */,
 				C2E53B832B62DDFB008E1E70 /* IconDescriptionDatabaseImpl+Database.swift in Sources */,
-				C2E53B7F2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database7.swift in Sources */,
-				C2E53B7A2B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database1.swift in Sources */,
-				C2E53B702B62DDFB008E1E70 /* ServiceDefinitionDatabaseImpl+Database0.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -9812,7 +9732,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.Storage;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Storage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -9854,7 +9774,7 @@
 				MERGEABLE_LIBRARY = NO;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.Storage;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Storage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -9897,7 +9817,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.Protection;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Protection;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -9940,7 +9860,7 @@
 				MERGEABLE_LIBRARY = NO;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.Protection;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Protection;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -9987,7 +9907,7 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.PushNotifications;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.PushNotifications;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -10034,7 +9954,7 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.PushNotifications;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.PushNotifications;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -10187,7 +10107,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEPLOYMENT_POSTPROCESSING = NO;
-				DEVELOPMENT_TEAM = ZY8UR5ADFW;
+				DEVELOPMENT_TEAM = ADDH38ZULC;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TwoFAS/Other/Info.plist;
@@ -10198,15 +10118,15 @@
 					"@executable_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_execute;
-				MARKETING_VERSION = 5.2.7;
+				MARKETING_VERSION = 2.0.0;
 				MERGED_BINARY_TYPE = manual;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				OTHER_LDFLAGS = (
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator;
+				PRODUCT_NAME = "Anexia Authenticator";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -10232,7 +10152,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEPLOYMENT_POSTPROCESSING = YES;
-				DEVELOPMENT_TEAM = ZY8UR5ADFW;
+				DEVELOPMENT_TEAM = ADDH38ZULC;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TwoFAS/Other/Info.plist;
@@ -10243,14 +10163,14 @@
 					"@executable_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_execute;
-				MARKETING_VERSION = 5.2.7;
+				MARKETING_VERSION = 2.0.0;
 				MERGED_BINARY_TYPE = manual;
 				OTHER_LDFLAGS = (
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator;
+				PRODUCT_NAME = "Anexia Authenticator";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIPFLAGS = "-rSTx";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -10296,7 +10216,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++17";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.NetworkStack;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.NetworkStack;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -10342,7 +10262,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++17";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.NetworkStack;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.NetworkStack;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -10386,7 +10306,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.Sync;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Sync;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -10429,7 +10349,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.Sync;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Sync;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -10474,7 +10394,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.Base32;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Base32;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -10518,7 +10438,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.Base32;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Base32;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -10553,7 +10473,7 @@
 				);
 				MARKETING_VERSION = 5.2.7;
 				MERGED_BINARY_TYPE = manual;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.TwoFASAuth;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.TwoFASAuth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -10587,7 +10507,7 @@
 				);
 				MARKETING_VERSION = 5.2.7;
 				MERGED_BINARY_TYPE = manual;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.TwoFASAuth;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.TwoFASAuth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -10630,7 +10550,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.TimeVerification;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.TimeVerification;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -10674,7 +10594,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.TimeVerification;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.TimeVerification;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -10706,7 +10626,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 5.2.7;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.TwoFASTests;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.TwoFASTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -10735,7 +10655,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 5.2.7;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.TwoFASTests;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.TwoFASTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -10767,11 +10687,11 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 5.2.7;
+				MARKETING_VERSION = 2.0.0;
 				MERGED_BINARY_TYPE = manual;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.TwoFASWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -10803,10 +10723,10 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 5.2.7;
+				MARKETING_VERSION = 2.0.0;
 				MERGED_BINARY_TYPE = manual;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.TwoFASWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -10840,7 +10760,7 @@
 				MERGED_BINARY_TYPE = manual;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.TwoFASServiceIntent;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.TwoFASServiceIntent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -10873,7 +10793,7 @@
 				MARKETING_VERSION = 5.2.7;
 				MERGED_BINARY_TYPE = manual;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.TwoFASServiceIntent;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.TwoFASServiceIntent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -10901,7 +10821,7 @@
 				MARKETING_VERSION = 5.2.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.DataTests;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.DataTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -10929,7 +10849,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 5.2.7;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.DataTests;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.DataTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -10972,7 +10892,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.Common;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Common;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -11018,7 +10938,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.Common;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Common;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -11064,7 +10984,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.Content;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Content;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -11110,7 +11030,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.Content;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Content;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -11157,7 +11077,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.CommonUIKit;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.CommonUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -11204,7 +11124,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.CommonUIKit;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.CommonUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -11251,7 +11171,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.Data;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Data;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -11298,7 +11218,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.Data;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.Data;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -11333,7 +11253,7 @@
 				MARKETING_VERSION = 5.2.7;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.ProtectionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.ProtectionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -11363,7 +11283,7 @@
 				);
 				MARKETING_VERSION = 5.2.7;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org.ProtectionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.ProtectionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
