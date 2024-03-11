@@ -1,5 +1,11 @@
 name: Xcode - Build and Analyze
 
+on:
+  push:
+    branches: [ "SIANXSVC-1225" ]
+  pull_request:
+    branches: [ "main" ]
+
 jobs:
   build:
     name: Build and analyse default scheme using xcodebuild command
