@@ -11,6 +11,9 @@ jobs:
     name: Build and analyse default scheme using xcodebuild command
     runs-on: macos-latest
 
+    env:
+      PROJECT_PATH: ../TwoFas
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.1
