@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C29DD5711FE844AE007ECEEE"
-               BuildableName = "CodeSupport.framework"
-               BlueprintName = "CodeSupport"
-               ReferencedContainer = "container:TwoFAS.xcodeproj">
+               BlueprintIdentifier = "C241D444278B9E0E00D7C604"
+               BuildableName = "NetworkStack.framework"
+               BlueprintName = "NetworkStack"
+               ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -43,10 +43,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C29DD5711FE844AE007ECEEE"
-            BuildableName = "CodeSupport.framework"
-            BlueprintName = "CodeSupport"
-            ReferencedContainer = "container:TwoFAS.xcodeproj">
+            BlueprintIdentifier = "C241D444278B9E0E00D7C604"
+            BuildableName = "NetworkStack.framework"
+            BlueprintName = "NetworkStack"
+            ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -59,10 +59,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C29DD5711FE844AE007ECEEE"
-            BuildableName = "CodeSupport.framework"
-            BlueprintName = "CodeSupport"
-            ReferencedContainer = "container:TwoFAS.xcodeproj">
+            BlueprintIdentifier = "C241D444278B9E0E00D7C604"
+            BuildableName = "NetworkStack.framework"
+            BlueprintName = "NetworkStack"
+            ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

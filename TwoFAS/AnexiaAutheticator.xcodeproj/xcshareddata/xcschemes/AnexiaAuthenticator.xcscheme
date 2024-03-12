@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C23666721FB2644900989ACA"
                BuildableName = "Anexia Authenticator.app"
-               BlueprintName = "TwoFAS"
-               ReferencedContainer = "container:TwoFAS.xcodeproj">
+               BlueprintName = "AnexiaAutheticator"
+               ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,8 +32,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C23666721FB2644900989ACA"
             BuildableName = "Anexia Authenticator.app"
-            BlueprintName = "TwoFAS"
-            ReferencedContainer = "container:TwoFAS.xcodeproj">
+            BlueprintName = "AnexiaAutheticator"
+            ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "C28ECEAA1FEEADF2000EBB9D"
                BuildableName = "CodeSupportTests.xctest"
                BlueprintName = "CodeSupportTests"
-               ReferencedContainer = "container:TwoFAS.xcodeproj">
+               ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -54,9 +54,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C2ACF9E320A8A918003E0987"
-               BuildableName = "TwoFASTests.xctest"
-               BlueprintName = "TwoFASTests"
-               ReferencedContainer = "container:TwoFAS.xcodeproj">
+               BuildableName = "AnexiaAutheticatorTests.xctest"
+               BlueprintName = "AnexiaAutheticatorTests"
+               ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -67,7 +67,7 @@
                BlueprintIdentifier = "C2FA85782426BB7300AACFC9"
                BuildableName = "ProtectionTests.xctest"
                BlueprintName = "ProtectionTests"
-               ReferencedContainer = "container:TwoFAS.xcodeproj">
+               ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -78,7 +78,7 @@
                BlueprintIdentifier = "C24D1C21253C744F0029D27D"
                BuildableName = "SyncTests.xctest"
                BlueprintName = "SyncTests"
-               ReferencedContainer = "container:TwoFAS.xcodeproj">
+               ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -99,8 +99,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C23666721FB2644900989ACA"
             BuildableName = "Anexia Authenticator.app"
-            BlueprintName = "TwoFAS"
-            ReferencedContainer = "container:TwoFAS.xcodeproj">
+            BlueprintName = "AnexiaAutheticator"
+            ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -122,8 +122,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C23666721FB2644900989ACA"
             BuildableName = "Anexia Authenticator.app"
-            BlueprintName = "TwoFAS"
-            ReferencedContainer = "container:TwoFAS.xcodeproj">
+            BlueprintName = "AnexiaAutheticator"
+            ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

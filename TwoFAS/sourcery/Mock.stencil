@@ -26,7 +26,7 @@ import UIKit
 import AppKit
 #endif
 
-@testable import TwoFAS
+@testable import Anexia_Authenticator
 @testable import Common
 
 {% macro swiftifyMethodName name %}{{ name | replace:"(","_" | replace:")","" | replace:":","_" | replace:"`","" | snakeToCamelCase | lowerFirstWord }}{% endmacro %}
