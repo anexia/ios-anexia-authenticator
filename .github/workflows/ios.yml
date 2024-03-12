@@ -23,17 +23,16 @@ jobs:
           echo $default | cat >default
           echo Using default scheme: $default
       - name: Clean Project
-        working-directory: ./TwoFas
         run: |
-          xcodebuild clean -project ${{ env.ProjectName }}.xcodeproj -scheme ${{ env.ProjectName }} -destination 'generic/platform=iOS'
+          xcodebuild clean -project ./TwoFas/AnexiaAuthenticator.xcodeproj -scheme AnexiaAuthenticator -destination 'generic/platform=iOS'
       - name: Build For Testing
         working-directory: ./TwoFas
         run: |
-          xcodebuild build-for-testing -scheme ${{ env.ProjectName }} -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2'
+          xcodebuild build-for-testing -scheme AnexiaAuthenticator -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2'
       - name: Test Without Building
         working-directory: ./TwoFas
         run: |
-          xcodebuild test-without-building -scheme ${{ inputs.projectName }} -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2'
+          xcodebuild test-without-building -scheme AnexiaAuthenticator -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2'
       - name: Build
         uses: yukiarrr/ios-build-action@v1.11.2
       - name: Build/Release Action
