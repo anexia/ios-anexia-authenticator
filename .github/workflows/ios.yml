@@ -1,8 +1,8 @@
-name: Xcode - Build and Analyze
+name: Xcode - Build
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "SIANXSVC-1225" ]
   pull_request:
     branches: [ "main" ]
 
@@ -10,22 +10,30 @@ jobs:
   build:
     name: Build and analyse default scheme using xcodebuild command
     runs-on: macos-latest
-
+    env:
+      PROJECT_NAME: AnexiaAutheticator
+      SCHEME: AnexiaAuthenticator
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set Default Scheme
-        working-directory: ../TwoFas
+      - name: Setup Xcode version
+        uses: maxim-lobanov/setup-xcode@v1.6.0
+        with: 
+          xcode-version: '15.2'
+      - name: Clean
         run: |
-          scheme_list=$(xcodebuild -list -json | tr -d "\n")
-          default=$(echo $scheme_list | ruby -e "require 'json'; puts JSON.parse(STDIN.gets)['project']['targets'][0]")
-          echo $default | cat >default
-          echo Using default scheme: $default
+          xcodebuild clean -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -destination 'generic/platform=iOS'
       - name: Build
-        env:
-          scheme: ${{ 'default' }}
         run: |
-          if [ $scheme = default ]; then scheme=$(cat default); fi
-          if [ "`ls -A | grep -i \\.xcworkspace\$`" ]; then filetype_parameter="workspace" && file_to_build="`ls -A | grep -i \\.xcworkspace\$`"; else filetype_parameter="project" && file_to_build="`ls -A | grep -i \\.xcodeproj\$`"; fi
-          file_to_build=`echo $file_to_build | awk '{$1=$1;print}'`
-          xcodebuild clean build analyze -scheme "$scheme" -"$filetype_parameter" "$file_to_build" | xcpretty && exit ${PIPESTATUS[0]}
+          xcodebuild build-for-testing -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -sdk iphonesimulator
+      - name: Run Tests
+        run: |
+          xcodebuild test-without-building -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -sdk iphonesimulator -destination 'generic/platform=iOS'
+      - name: Build/Release
+        uses: hectorguerrini/build-ios-action@v1.0.4
+      - name: iOS Build Action
+        uses: yukiarrr/ios-build-action@v1.11.2
+        with:
+          project-path: ./TwoFas
+
+      

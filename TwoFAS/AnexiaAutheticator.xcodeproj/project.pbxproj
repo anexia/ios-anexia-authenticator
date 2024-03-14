@@ -458,7 +458,7 @@
 		C28633CD1FFABD2200C8F4B4 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28633CC1FFABD2200C8F4B4 /* UserNotifications.framework */; };
 		C28633CF1FFABD2200C8F4B4 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28633CE1FFABD2200C8F4B4 /* UserNotificationsUI.framework */; };
 		C28633D21FFABD2200C8F4B4 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28633D11FFABD2200C8F4B4 /* NotificationViewController.swift */; };
-		C28633D91FFABD2200C8F4B4 /* TwoFASAuth.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C28633CB1FFABD2200C8F4B4 /* TwoFASAuth.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C28633D91FFABD2200C8F4B4 /* AnexiaAutheticatorAuth.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C28633CB1FFABD2200C8F4B4 /* AnexiaAutheticatorAuth.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C28633E11FFAC6B600C8F4B4 /* Storage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C200E49A1FB3911B00D7C748 /* Storage.framework */; };
 		C286ED4E25F4365000F92EDE /* ComposeServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C286ED4D25F4365000F92EDE /* ComposeServiceViewController.swift */; };
 		C28705F42980776300745459 /* MainFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28705F32980776300745459 /* MainFlowController.swift */; };
@@ -687,10 +687,10 @@
 		C2C3AE11269E224A00506ACF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C3AE10269E224A00506ACF /* SwiftUI.framework */; };
 		C2C3AE14269E224A00506ACF /* TwoFASWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3AE13269E224A00506ACF /* TwoFASWidget.swift */; };
 		C2C3AE17269E224B00506ACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C3AE16269E224B00506ACF /* Assets.xcassets */; };
-		C2C3AE1D269E224B00506ACF /* TwoFASWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C2C3AE0D269E224A00506ACF /* TwoFASWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2C3AE1D269E224B00506ACF /* AnexiaAutheticatorWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C2C3AE0D269E224A00506ACF /* AnexiaAutheticatorWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C2C3AE27269E274700506ACF /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C3AE26269E274700506ACF /* Intents.framework */; };
 		C2C3AE2A269E274700506ACF /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3AE29269E274700506ACF /* IntentHandler.swift */; };
-		C2C3AE3F269E274700506ACF /* TwoFASServiceIntent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C2C3AE25269E274700506ACF /* TwoFASServiceIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2C3AE3F269E274700506ACF /* AnexiaAutheticatorServiceIntent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C2C3AE25269E274700506ACF /* AnexiaAutheticatorServiceIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C2C4F64728FDEF8400285B81 /* ItemHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C4F64628FDEF8400285B81 /* ItemHandling.swift */; };
 		C2C4F64928FE002F00285B81 /* RecordIDGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C4F64828FE002F00285B81 /* RecordIDGenerator.swift */; };
 		C2C4F64B28FE08EB00285B81 /* InfoHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C4F64A28FE08EB00285B81 /* InfoHandler.swift */; };
@@ -1430,6 +1430,13 @@
 			remoteGlobalIDString = C2E7C3812ADB19F300478D89;
 			remoteInfo = Data;
 		};
+		E1A54C9B2BA0677D0004D35D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C236666B1FB2644900989ACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C23666721FB2644900989ACA;
+			remoteInfo = AnexiaAutheticator;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1460,9 +1467,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				C2C3AE3F269E274700506ACF /* TwoFASServiceIntent.appex in Embed Foundation Extensions */,
-				C2C3AE1D269E224B00506ACF /* TwoFASWidgetExtension.appex in Embed Foundation Extensions */,
-				C28633D91FFABD2200C8F4B4 /* TwoFASAuth.appex in Embed Foundation Extensions */,
+				C2C3AE3F269E274700506ACF /* AnexiaAutheticatorServiceIntent.appex in Embed Foundation Extensions */,
+				C2C3AE1D269E224B00506ACF /* AnexiaAutheticatorWidgetExtension.appex in Embed Foundation Extensions */,
+				C28633D91FFABD2200C8F4B4 /* AnexiaAutheticatorAuth.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2030,7 +2037,7 @@
 		C28633AC1FF57C8600C8F4B4 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		C28633C01FF92D8100C8F4B4 /* TokensViewController+TokensViewControlling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TokensViewController+TokensViewControlling.swift"; sourceTree = "<group>"; };
 		C28633C31FF9327900C8F4B4 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
-		C28633CB1FFABD2200C8F4B4 /* TwoFASAuth.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TwoFASAuth.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28633CB1FFABD2200C8F4B4 /* AnexiaAutheticatorAuth.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AnexiaAutheticatorAuth.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28633CC1FFABD2200C8F4B4 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		C28633CE1FFABD2200C8F4B4 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		C28633D11FFABD2200C8F4B4 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
@@ -2156,7 +2163,7 @@
 		C2AC221227661BA300271402 /* ExporterPasswordProtectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExporterPasswordProtectionViewController.swift; sourceTree = "<group>"; };
 		C2AC221427661C0600271402 /* ExporterPasswordProtectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExporterPasswordProtectionPresenter.swift; sourceTree = "<group>"; };
 		C2ACF9DE20A8A30E003E0987 /* ServiceMigrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMigrationController.swift; sourceTree = "<group>"; };
-		C2ACF9E420A8A918003E0987 /* TwoFASTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoFASTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2ACF9E420A8A918003E0987 /* AnexiaAutheticatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnexiaAutheticatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2ACF9E620A8A918003E0987 /* TwoFASTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoFASTests.swift; sourceTree = "<group>"; };
 		C2ACF9E820A8A918003E0987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2AD653027F258B3008997DB /* BrowserExtensionFailureFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserExtensionFailureFlowController.swift; sourceTree = "<group>"; };
@@ -2257,13 +2264,13 @@
 		C2C1DDE127CAD2DF002C7867 /* ComposeServiceAdvancedEditTokenTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeServiceAdvancedEditTokenTypeCell.swift; sourceTree = "<group>"; };
 		C2C1DDE327CAD37D002C7867 /* SelectOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOption.swift; sourceTree = "<group>"; };
 		C2C32A302AB7198C00DDB944 /* IconRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconRenderer.swift; sourceTree = "<group>"; };
-		C2C3AE0D269E224A00506ACF /* TwoFASWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TwoFASWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C3AE0D269E224A00506ACF /* AnexiaAutheticatorWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AnexiaAutheticatorWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C3AE0E269E224A00506ACF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		C2C3AE10269E224A00506ACF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		C2C3AE13269E224A00506ACF /* TwoFASWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoFASWidget.swift; sourceTree = "<group>"; };
 		C2C3AE16269E224B00506ACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2C3AE18269E224B00506ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2C3AE25269E274700506ACF /* TwoFASServiceIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TwoFASServiceIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C3AE25269E274700506ACF /* AnexiaAutheticatorServiceIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AnexiaAutheticatorServiceIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C3AE26269E274700506ACF /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
 		C2C3AE29269E274700506ACF /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		C2C3AE2B269E274700506ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -3967,14 +3974,14 @@
 				C23666731FB2644900989ACA /* Anexia Authenticator.app */,
 				C200E49A1FB3911B00D7C748 /* Storage.framework */,
 				C21F05BA1FC761450038E28F /* PushNotifications.framework */,
-				C28633CB1FFABD2200C8F4B4 /* TwoFASAuth.appex */,
+				C28633CB1FFABD2200C8F4B4 /* AnexiaAutheticatorAuth.appex */,
 				C2147CB5205D78600001D011 /* Protection.framework */,
-				C2ACF9E420A8A918003E0987 /* TwoFASTests.xctest */,
+				C2ACF9E420A8A918003E0987 /* AnexiaAutheticatorTests.xctest */,
 				C29626D62370BD7F00C133BC /* TimeVerification.framework */,
 				C2FA85792426BB7300AACFC9 /* ProtectionTests.xctest */,
 				C24D1C1A253C744E0029D27D /* Sync.framework */,
-				C2C3AE0D269E224A00506ACF /* TwoFASWidgetExtension.appex */,
-				C2C3AE25269E274700506ACF /* TwoFASServiceIntent.appex */,
+				C2C3AE0D269E224A00506ACF /* AnexiaAutheticatorWidgetExtension.appex */,
+				C2C3AE25269E274700506ACF /* AnexiaAutheticatorServiceIntent.appex */,
 				C241D445278B9E0E00D7C604 /* NetworkStack.framework */,
 				C2E7C3552ADB02FE00478D89 /* CommonUIKit.framework */,
 				C2E7C3822ADB19F300478D89 /* Data.framework */,
@@ -7587,9 +7594,9 @@
 			productReference = C21F05BA1FC761450038E28F /* PushNotifications.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C23666721FB2644900989ACA /* TwoFAS */ = {
+		C23666721FB2644900989ACA /* AnexiaAutheticator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C23666881FB2644900989ACA /* Build configuration list for PBXNativeTarget "TwoFAS" */;
+			buildConfigurationList = C23666881FB2644900989ACA /* Build configuration list for PBXNativeTarget "AnexiaAutheticator" */;
 			buildPhases = (
 				C236666F1FB2644900989ACA /* Sources */,
 				C23666701FB2644900989ACA /* Frameworks */,
@@ -7616,7 +7623,7 @@
 				C2E53ACA2B62DD6C008E1E70 /* PBXTargetDependency */,
 				C2E53B502B62DDCB008E1E70 /* PBXTargetDependency */,
 			);
-			name = TwoFAS;
+			name = AnexiaAutheticator;
 			packageProductDependencies = (
 			);
 			productName = TwoFAS;
@@ -7685,9 +7692,9 @@
 			productReference = C251EDD52AE87150007722F2 /* Base32.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C28633CA1FFABD2200C8F4B4 /* TwoFASAuth */ = {
+		C28633CA1FFABD2200C8F4B4 /* AnexiaAutheticatorAuth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C28633DC1FFABD2200C8F4B4 /* Build configuration list for PBXNativeTarget "TwoFASAuth" */;
+			buildConfigurationList = C28633DC1FFABD2200C8F4B4 /* Build configuration list for PBXNativeTarget "AnexiaAutheticatorAuth" */;
 			buildPhases = (
 				C28633C71FFABD2200C8F4B4 /* Sources */,
 				C28633C81FFABD2200C8F4B4 /* Frameworks */,
@@ -7702,13 +7709,13 @@
 				C2FA91602ADD58F200F1D29F /* PBXTargetDependency */,
 				C251EDF42AE8729C007722F2 /* PBXTargetDependency */,
 			);
-			name = TwoFASAuth;
+			name = AnexiaAutheticatorAuth;
 			packageProductDependencies = (
 				C274C7752ADD3DF900B8AAC1 /* FirebaseMessaging */,
 				C274C77B2ADD3E3500B8AAC1 /* FirebaseCrashlytics */,
 			);
 			productName = TwoFASAuth;
-			productReference = C28633CB1FFABD2200C8F4B4 /* TwoFASAuth.appex */;
+			productReference = C28633CB1FFABD2200C8F4B4 /* AnexiaAutheticatorAuth.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		C29626D52370BD7F00C133BC /* TimeVerification */ = {
@@ -7733,9 +7740,9 @@
 			productReference = C29626D62370BD7F00C133BC /* TimeVerification.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C2ACF9E320A8A918003E0987 /* TwoFASTests */ = {
+		C2ACF9E320A8A918003E0987 /* AnexiaAutheticatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2ACF9EB20A8A918003E0987 /* Build configuration list for PBXNativeTarget "TwoFASTests" */;
+			buildConfigurationList = C2ACF9EB20A8A918003E0987 /* Build configuration list for PBXNativeTarget "AnexiaAutheticatorTests" */;
 			buildPhases = (
 				C2ACF9E020A8A918003E0987 /* Sources */,
 				C2ACF9E120A8A918003E0987 /* Frameworks */,
@@ -7746,14 +7753,14 @@
 			dependencies = (
 				C2ACF9EA20A8A918003E0987 /* PBXTargetDependency */,
 			);
-			name = TwoFASTests;
+			name = AnexiaAutheticatorTests;
 			productName = TwoFASTests;
-			productReference = C2ACF9E420A8A918003E0987 /* TwoFASTests.xctest */;
+			productReference = C2ACF9E420A8A918003E0987 /* AnexiaAutheticatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C2C3AE0C269E224A00506ACF /* TwoFASWidgetExtension */ = {
+		C2C3AE0C269E224A00506ACF /* AnexiaAutheticatorWidgetExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2C3AE1E269E224B00506ACF /* Build configuration list for PBXNativeTarget "TwoFASWidgetExtension" */;
+			buildConfigurationList = C2C3AE1E269E224B00506ACF /* Build configuration list for PBXNativeTarget "AnexiaAutheticatorWidgetExtension" */;
 			buildPhases = (
 				C2C3AE09269E224A00506ACF /* Sources */,
 				C2C3AE0A269E224A00506ACF /* Frameworks */,
@@ -7769,18 +7776,18 @@
 				C28CA55C2B4768E700ACB527 /* PBXTargetDependency */,
 				C2E53BCC2B62DFFD008E1E70 /* PBXTargetDependency */,
 			);
-			name = TwoFASWidgetExtension;
+			name = AnexiaAutheticatorWidgetExtension;
 			packageProductDependencies = (
 				C274C7772ADD3E1700B8AAC1 /* FirebaseMessaging */,
 				C274C7792ADD3E2C00B8AAC1 /* FirebaseCrashlytics */,
 			);
 			productName = TwoFASWidgetExtension;
-			productReference = C2C3AE0D269E224A00506ACF /* TwoFASWidgetExtension.appex */;
+			productReference = C2C3AE0D269E224A00506ACF /* AnexiaAutheticatorWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		C2C3AE24269E274700506ACF /* TwoFASServiceIntent */ = {
+		C2C3AE24269E274700506ACF /* AnexiaAutheticatorServiceIntent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2C3AE43269E274700506ACF /* Build configuration list for PBXNativeTarget "TwoFASServiceIntent" */;
+			buildConfigurationList = C2C3AE43269E274700506ACF /* Build configuration list for PBXNativeTarget "AnexiaAutheticatorServiceIntent" */;
 			buildPhases = (
 				C2C3AE21269E274700506ACF /* Sources */,
 				C2C3AE22269E274700506ACF /* Frameworks */,
@@ -7792,11 +7799,11 @@
 				C2D07EDA26A45BBD00AF8E7B /* PBXTargetDependency */,
 				C2D07EDF26A45BC700AF8E7B /* PBXTargetDependency */,
 			);
-			name = TwoFASServiceIntent;
+			name = AnexiaAutheticatorServiceIntent;
 			packageProductDependencies = (
 			);
 			productName = TwoFASServiceIntent;
-			productReference = C2C3AE25269E274700506ACF /* TwoFASServiceIntent.appex */;
+			productReference = C2C3AE25269E274700506ACF /* AnexiaAutheticatorServiceIntent.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		C2DF710A2B5DD31200D85D87 /* DataTests */ = {
@@ -7811,6 +7818,7 @@
 			);
 			dependencies = (
 				C2DF71112B5DD31200D85D87 /* PBXTargetDependency */,
+				E1A54C9C2BA0677D0004D35D /* PBXTargetDependency */,
 			);
 			name = DataTests;
 			productName = DataTests;
@@ -8014,6 +8022,7 @@
 					};
 					C2DF710A2B5DD31200D85D87 = {
 						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C23666721FB2644900989ACA;
 					};
 					C2E53AC42B62DD6C008E1E70 = {
 						CreatedOnToolsVersion = 15.2;
@@ -8033,7 +8042,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C236666E1FB2644900989ACA /* Build configuration list for PBXProject "TwoFAS" */;
+			buildConfigurationList = C236666E1FB2644900989ACA /* Build configuration list for PBXProject "AnexiaAutheticator" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -8067,7 +8076,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C23666721FB2644900989ACA /* TwoFAS */,
+				C23666721FB2644900989ACA /* AnexiaAutheticator */,
 				C2E7C3812ADB19F300478D89 /* Data */,
 				C200E4991FB3911B00D7C748 /* Storage */,
 				C21F05B91FC761450038E28F /* PushNotifications */,
@@ -8079,11 +8088,11 @@
 				C251EDD42AE87150007722F2 /* Base32 */,
 				C2E53AC42B62DD6C008E1E70 /* Common */,
 				C2E53B4A2B62DDCB008E1E70 /* Content */,
-				C28633CA1FFABD2200C8F4B4 /* TwoFASAuth */,
-				C2ACF9E320A8A918003E0987 /* TwoFASTests */,
+				C28633CA1FFABD2200C8F4B4 /* AnexiaAutheticatorAuth */,
+				C2ACF9E320A8A918003E0987 /* AnexiaAutheticatorTests */,
 				C2FA85782426BB7300AACFC9 /* ProtectionTests */,
-				C2C3AE0C269E224A00506ACF /* TwoFASWidgetExtension */,
-				C2C3AE24269E274700506ACF /* TwoFASServiceIntent */,
+				C2C3AE0C269E224A00506ACF /* AnexiaAutheticatorWidgetExtension */,
+				C2C3AE24269E274700506ACF /* AnexiaAutheticatorServiceIntent */,
 				C2DF710A2B5DD31200D85D87 /* DataTests */,
 			);
 		};
@@ -9391,7 +9400,7 @@
 		};
 		C28633D81FFABD2200C8F4B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C28633CA1FFABD2200C8F4B4 /* TwoFASAuth */;
+			target = C28633CA1FFABD2200C8F4B4 /* AnexiaAutheticatorAuth */;
 			targetProxy = C28633D71FFABD2200C8F4B4 /* PBXContainerItemProxy */;
 		};
 		C28CA55C2B4768E700ACB527 /* PBXTargetDependency */ = {
@@ -9407,7 +9416,7 @@
 		C2ACF9EA20A8A918003E0987 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			platformFilter = ios;
-			target = C23666721FB2644900989ACA /* TwoFAS */;
+			target = C23666721FB2644900989ACA /* AnexiaAutheticator */;
 			targetProxy = C2ACF9E920A8A918003E0987 /* PBXContainerItemProxy */;
 		};
 		C2AE5F6D2ADC847200AED670 /* PBXTargetDependency */ = {
@@ -9434,12 +9443,12 @@
 		};
 		C2C3AE1C269E224B00506ACF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C2C3AE0C269E224A00506ACF /* TwoFASWidgetExtension */;
+			target = C2C3AE0C269E224A00506ACF /* AnexiaAutheticatorWidgetExtension */;
 			targetProxy = C2C3AE1B269E224B00506ACF /* PBXContainerItemProxy */;
 		};
 		C2C3AE3E269E274700506ACF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C2C3AE24269E274700506ACF /* TwoFASServiceIntent */;
+			target = C2C3AE24269E274700506ACF /* AnexiaAutheticatorServiceIntent */;
 			targetProxy = C2C3AE3D269E274700506ACF /* PBXContainerItemProxy */;
 		};
 		C2D07EDA26A45BBD00AF8E7B /* PBXTargetDependency */ = {
@@ -9593,13 +9602,18 @@
 		C2FA85852426BC7500AACFC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			platformFilter = ios;
-			target = C23666721FB2644900989ACA /* TwoFAS */;
+			target = C23666721FB2644900989ACA /* AnexiaAutheticator */;
 			targetProxy = C2FA85842426BC7500AACFC9 /* PBXContainerItemProxy */;
 		};
 		C2FA91602ADD58F200F1D29F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C2E7C3812ADB19F300478D89 /* Data */;
 			targetProxy = C2FA915F2ADD58F200F1D29F /* PBXContainerItemProxy */;
+		};
+		E1A54C9C2BA0677D0004D35D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C23666721FB2644900989ACA /* AnexiaAutheticator */;
+			targetProxy = E1A54C9B2BA0677D0004D35D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -10634,7 +10648,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoFAS.app/TwoFAS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anexia Authenticator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anexia Authenticator";
 			};
 			name = Debug;
 		};
@@ -10663,7 +10677,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoFAS.app/TwoFAS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anexia Authenticator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anexia Authenticator";
 			};
 			name = Release;
 		};
@@ -10808,6 +10822,7 @@
 		C2DF71132B5DD31300D85D87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -10831,12 +10846,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anexia Authenticator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anexia Authenticator";
 			};
 			name = Debug;
 		};
 		C2DF71142B5DD31300D85D87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -10858,6 +10875,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anexia Authenticator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anexia Authenticator";
 			};
 			name = Release;
 		};
@@ -11237,6 +11255,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(EMBEDDED_CONTENT_CONTAINS_SWIFT)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -11261,7 +11280,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoFAS.app/TwoFAS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anexia Authenticator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anexia Authenticator";
 			};
 			name = Debug;
 		};
@@ -11269,6 +11288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(EMBEDDED_CONTENT_CONTAINS_SWIFT)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -11291,7 +11311,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoFAS.app/TwoFAS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anexia Authenticator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anexia Authenticator";
 			};
 			name = Release;
 		};
@@ -11325,7 +11345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C236666E1FB2644900989ACA /* Build configuration list for PBXProject "TwoFAS" */ = {
+		C236666E1FB2644900989ACA /* Build configuration list for PBXProject "AnexiaAutheticator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C23666861FB2644900989ACA /* Debug */,
@@ -11334,7 +11354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C23666881FB2644900989ACA /* Build configuration list for PBXNativeTarget "TwoFAS" */ = {
+		C23666881FB2644900989ACA /* Build configuration list for PBXNativeTarget "AnexiaAutheticator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C23666891FB2644900989ACA /* Debug */,
@@ -11370,7 +11390,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C28633DC1FFABD2200C8F4B4 /* Build configuration list for PBXNativeTarget "TwoFASAuth" */ = {
+		C28633DC1FFABD2200C8F4B4 /* Build configuration list for PBXNativeTarget "AnexiaAutheticatorAuth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C28633DA1FFABD2200C8F4B4 /* Debug */,
@@ -11388,7 +11408,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2ACF9EB20A8A918003E0987 /* Build configuration list for PBXNativeTarget "TwoFASTests" */ = {
+		C2ACF9EB20A8A918003E0987 /* Build configuration list for PBXNativeTarget "AnexiaAutheticatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2ACF9EC20A8A918003E0987 /* Debug */,
@@ -11397,7 +11417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2C3AE1E269E224B00506ACF /* Build configuration list for PBXNativeTarget "TwoFASWidgetExtension" */ = {
+		C2C3AE1E269E224B00506ACF /* Build configuration list for PBXNativeTarget "AnexiaAutheticatorWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2C3AE1F269E224B00506ACF /* Debug */,
@@ -11406,7 +11426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2C3AE43269E274700506ACF /* Build configuration list for PBXNativeTarget "TwoFASServiceIntent" */ = {
+		C2C3AE43269E274700506ACF /* Build configuration list for PBXNativeTarget "AnexiaAutheticatorServiceIntent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2C3AE44269E274700506ACF /* Debug */,

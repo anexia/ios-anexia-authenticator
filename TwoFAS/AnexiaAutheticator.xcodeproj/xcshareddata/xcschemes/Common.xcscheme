@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C26D146A2263C5B400599101"
-               BuildableName = "Token.framework"
-               BlueprintName = "Token"
-               ReferencedContainer = "container:TwoFAS.xcodeproj">
+               BlueprintIdentifier = "C2E53AC42B62DD6C008E1E70"
+               BuildableName = "Common.framework"
+               BlueprintName = "Common"
+               ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -43,10 +43,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C26D146A2263C5B400599101"
-            BuildableName = "Token.framework"
-            BlueprintName = "Token"
-            ReferencedContainer = "container:TwoFAS.xcodeproj">
+            BlueprintIdentifier = "C2E53AC42B62DD6C008E1E70"
+            BuildableName = "Common.framework"
+            BlueprintName = "Common"
+            ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -59,10 +59,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C26D146A2263C5B400599101"
-            BuildableName = "Token.framework"
-            BlueprintName = "Token"
-            ReferencedContainer = "container:TwoFAS.xcodeproj">
+            BlueprintIdentifier = "C2E53AC42B62DD6C008E1E70"
+            BuildableName = "Common.framework"
+            BlueprintName = "Common"
+            ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

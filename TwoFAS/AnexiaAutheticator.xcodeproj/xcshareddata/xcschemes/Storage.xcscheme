@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C21F05B91FC761450038E28F"
-               BuildableName = "PushNotifications.framework"
-               BlueprintName = "PushNotifications"
-               ReferencedContainer = "container:TwoFAS.xcodeproj">
+               BlueprintIdentifier = "C200E4991FB3911B00D7C748"
+               BuildableName = "Storage.framework"
+               BlueprintName = "Storage"
+               ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -43,10 +43,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C21F05B91FC761450038E28F"
-            BuildableName = "PushNotifications.framework"
-            BlueprintName = "PushNotifications"
-            ReferencedContainer = "container:TwoFAS.xcodeproj">
+            BlueprintIdentifier = "C200E4991FB3911B00D7C748"
+            BuildableName = "Storage.framework"
+            BlueprintName = "Storage"
+            ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -59,10 +59,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C21F05B91FC761450038E28F"
-            BuildableName = "PushNotifications.framework"
-            BlueprintName = "PushNotifications"
-            ReferencedContainer = "container:TwoFAS.xcodeproj">
+            BlueprintIdentifier = "C200E4991FB3911B00D7C748"
+            BuildableName = "Storage.framework"
+            BlueprintName = "Storage"
+            ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

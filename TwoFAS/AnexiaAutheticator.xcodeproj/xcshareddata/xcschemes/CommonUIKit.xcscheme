@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1520"
-   version = "1.3">
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C2E9267C23835382008A4082"
-               BuildableName = "Cryptography.framework"
-               BlueprintName = "Cryptography"
-               ReferencedContainer = "container:TwoFAS.xcodeproj">
+               BlueprintIdentifier = "C2E7C3542ADB02FE00478D89"
+               BuildableName = "CommonUIKit.framework"
+               BlueprintName = "CommonUIKit"
+               ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,9 +26,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -50,10 +49,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C2E9267C23835382008A4082"
-            BuildableName = "Cryptography.framework"
-            BlueprintName = "Cryptography"
-            ReferencedContainer = "container:TwoFAS.xcodeproj">
+            BlueprintIdentifier = "C2E7C3542ADB02FE00478D89"
+            BuildableName = "CommonUIKit.framework"
+            BlueprintName = "CommonUIKit"
+            ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
