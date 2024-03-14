@@ -1,4 +1,4 @@
-name: Xcode - Build and Analyze
+name: Xcode - Build
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Build
         run: |
-          xcodebuild build-for-testing -scheme "${{env.SCHEME}}" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2'
+          xcodebuild build-for-testing -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme "${{env.SCHEME}}" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2'
       - name: Clean
         run: |
           xcodebuild clean -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme "${{env.SCHEME}}" -destination 'generic/platform=iOS'
