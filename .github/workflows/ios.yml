@@ -22,6 +22,8 @@ jobs:
           default=$(echo $scheme_list | ruby -e "require 'json'; puts JSON.parse(STDIN.gets)['project']['targets'][0]")
           echo $default | cat >default
           echo Using default scheme: $default
+      - name: Build/Release Action
+        uses: hectorguerrini/build-ios-action@v1.0.4
       - name: Clean Project
         run: |
           xcodebuild clean -project ./TwoFas/AnexiaAuthenticator.xcodeproj -scheme AnexiaAuthenticator -destination 'generic/platform=iOS'
@@ -35,6 +37,5 @@ jobs:
           xcodebuild test-without-building -scheme AnexiaAuthenticator -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2'
       - name: Build
         uses: yukiarrr/ios-build-action@v1.11.2
-      - name: Build/Release Action
-        uses: hectorguerrini/build-ios-action@v1.0.4
+
       
