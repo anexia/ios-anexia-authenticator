@@ -12,29 +12,19 @@ jobs:
     runs-on: macos-latest
     env:
       PROJECT_NAME: AnexiaAutheticator
+      SCHEME: AnexiaAutheticator
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set Default Scheme
-        working-directory: ./TwoFas
-        run: |
-          scheme_list=$(xcodebuild -list -json | tr -d "\n")
-          default=$(echo $scheme_list | ruby -e "require 'json'; puts JSON.parse(STDIN.gets)['project']['targets'][0]")
-          echo $default | cat >default
-          echo Using default scheme: $default
       - name: Clean
-        env:
-          scheme: ${{ 'default' }}
         run: |
-          xcodebuild clean -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme "$scheme" -destination 'generic/platform=iOS'
+          xcodebuild clean -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -destination 'generic/platform=iOS'
       - name: Build
-        env:
-          scheme: ${{ 'default' }}
         run: |
-          xcodebuild build-for-testing -scheme "$scheme" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2'
+          xcodebuild build-for-testing -scheme ${{env.SCHEME}} -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2'
       - name: Run Tests
         run: |
-          xcodebuild test-without-building -scheme "$scheme" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2'
+          xcodebuild test-without-building -scheme ${{env.SCHEME}} -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2'
       - name: Build/Release
         uses: hectorguerrini/build-ios-action@v1.0.4
 
