@@ -21,7 +21,7 @@ jobs:
           xcodebuild clean -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -destination 'generic/platform=iOS'
       - name: Run Tests
         run: |
-          xcodebuild test-without-building -scheme ${{env.SCHEME}} -sdk iphonesimulator
+          xcodebuild test-without-building -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -sdk iphonesimulator
       - name: Build
         run: |
           xcodebuild build-for-testing -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -sdk iphonesimulator
