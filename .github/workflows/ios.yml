@@ -19,7 +19,7 @@ jobs:
       - name: Setup Xcode version
         uses: maxim-lobanov/setup-xcode@v1.6.0
         with: 
-          xcode-version: latest-stable
+          xcode-version: '15.2'
       - name: Clean
         run: |
           xcodebuild clean -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -destination 'generic/platform=iOS'
