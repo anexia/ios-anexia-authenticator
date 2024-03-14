@@ -12,14 +12,10 @@ jobs:
     runs-on: macos-latest
     env:
       PROJECT_NAME: AnexiaAutheticator
-      SCHEME: AnexiaAutheticator
+      SCHEME: AnexiaAuthenticator
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: iOS Build Action
-        uses: yukiarrr/ios-build-action@v1.11.2
-        with:
-          project-path: ./TwoFas
       - name: Clean
         run: |
           xcodebuild clean -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -destination 'generic/platform=iOS'
@@ -31,5 +27,9 @@ jobs:
           xcodebuild test-without-building -scheme ${{env.SCHEME}} -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2'
       - name: Build/Release
         uses: hectorguerrini/build-ios-action@v1.0.4
+      - name: iOS Build Action
+        uses: yukiarrr/ios-build-action@v1.11.2
+        with:
+          project-path: ./TwoFas
 
       
