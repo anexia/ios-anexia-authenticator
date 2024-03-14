@@ -25,7 +25,7 @@ jobs:
           xcodebuild clean -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -destination 'generic/platform=iOS'
       - name: Testing App
         run: |
-          xcodebuild test -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}}
+          xcodebuild test -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -destination 'platform=iOS Simulator,OS=17.2,name=iPhone 15 Pro Max'
       - name: Build
         run: |
           xcodebuild build-for-testing -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -sdk iphonesimulator
