@@ -1616,10 +1616,6 @@
 		C21B40DB28C520E400348E04 /* ImporterOpenFileError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImporterOpenFileError.swift; sourceTree = "<group>"; };
 		C21BC51C25B3660E00B15F99 /* ExchangeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeData.swift; sourceTree = "<group>"; };
 		C21BC54C25B37C8900B15F99 /* ExchangeConsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeConsts.swift; sourceTree = "<group>"; };
-		C21BF26A2B5B340100915507 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/TwoFASWidget.strings"; sourceTree = "<group>"; };
-		C21BF26B2B5B340100915507 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		C21BF26C2B5B340100915507 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		C21BF26D2B5B340100915507 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		C21C38A11FE30E62000EC252 /* LimitedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedTextField.swift; sourceTree = "<group>"; };
 		C21E0B3D2299F2190063EE7C /* UIDevice+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+.swift"; sourceTree = "<group>"; };
 		C21EB2ED2A7FC55800FA8AA1 /* AddingServiceMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingServiceMetrics.swift; sourceTree = "<group>"; };
@@ -1632,10 +1628,6 @@
 		C21F05BC1FC761450038E28F /* PushNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotifications.h; sourceTree = "<group>"; };
 		C21F05BD1FC761450038E28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C21F4CDE24719909003CF1F5 /* MainContainerElementGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContainerElementGenerator.swift; sourceTree = "<group>"; };
-		C22294DF2A9F5B4300DB7965 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/TwoFASWidget.strings; sourceTree = "<group>"; };
-		C22294E02A9F5B4300DB7965 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C22294E12A9F5B4400DB7965 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C22294E22A9F5B4400DB7965 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C223E7B02A8428EE007E2546 /* AddingServiceTokenModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddingServiceTokenModuleInteractor.swift; sourceTree = "<group>"; };
 		C2248BB02277935200AC231C /* GridViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewState.swift; sourceTree = "<group>"; };
 		C225E613241CFCD10041C238 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -1645,10 +1637,6 @@
 		C2286033266972B5005E88E3 /* TokenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCell.swift; sourceTree = "<group>"; };
 		C2290333276BA78C0005C8F2 /* AppLockStateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockStateInteractor.swift; sourceTree = "<group>"; };
 		C229403D2AB3A50700D55B58 /* AndOTPData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndOTPData.swift; sourceTree = "<group>"; };
-		C22A82E829EDCC5E00CCF6B1 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/TwoFASWidget.strings; sourceTree = "<group>"; };
-		C22A82E929EDCC5F00CCF6B1 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C22A82EA29EDCC5F00CCF6B1 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C22A82EB29EDCC5F00CCF6B1 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C22A8669287F60BD009A43FE /* MainRepositoryImpl+Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainRepositoryImpl+Notifications.swift"; sourceTree = "<group>"; };
 		C22C1398267682B4001AA5F1 /* CategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryData.swift; sourceTree = "<group>"; };
 		C22C139A267684DC001AA5F1 /* CategoryHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHandler.swift; sourceTree = "<group>"; };
@@ -1874,20 +1862,12 @@
 		C25E8992266402AD00A60CE5 /* SectionEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SectionEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		C25E8993266402AD00A60CE5 /* SectionEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SectionEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C25F4FDA2622207F008F7755 /* TokensViewEmptySearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokensViewEmptySearchScreen.swift; sourceTree = "<group>"; };
-		C261A1212A12BECC00A1519F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/TwoFASWidget.strings; sourceTree = "<group>"; };
-		C261A1222A12BECC00A1519F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C261A1232A12BECD00A1519F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C261A1242A12BECD00A1519F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C2625F8B28BB853D00D84C5C /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		C2625F8D28BB858600D84C5C /* AboutPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPresenter.swift; sourceTree = "<group>"; };
 		C2625F8F28BB85B100D84C5C /* AboutModuleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutModuleInteractor.swift; sourceTree = "<group>"; };
 		C2625F9128BBB87700D84C5C /* AboutModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutModels.swift; sourceTree = "<group>"; };
 		C2625F9328BBC01900D84C5C /* AboutPresenter+Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AboutPresenter+Menu.swift"; sourceTree = "<group>"; };
 		C2625F9528BBC86B00D84C5C /* AboutFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutFooter.swift; sourceTree = "<group>"; };
-		C262E83529E9AA96008D148E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TwoFASWidget.strings; sourceTree = "<group>"; };
-		C262E83629E9AA96008D148E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C262E83729E9AA97008D148E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C262E83829E9AA97008D148E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C2633F1E265B045F0034B836 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		C263F45929900DED009B0837 /* MainMenuModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuModels.swift; sourceTree = "<group>"; };
 		C263F45D29901C4F009B0837 /* MainSplitFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSplitFlowController.swift; sourceTree = "<group>"; };
@@ -1900,10 +1880,6 @@
 		C266189F26126A8200ED52CB /* LabelComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelComposeViewController.swift; sourceTree = "<group>"; };
 		C26654282725D6EA00DC3A3C /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
 		C266542A2725EF7B00DC3A3C /* ExportFileRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportFileRules.swift; sourceTree = "<group>"; };
-		C2671C892A51C5A60002C4BB /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/TwoFASWidget.strings"; sourceTree = "<group>"; };
-		C2671C8A2A51C5A60002C4BB /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		C2671C8B2A51C5A60002C4BB /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		C2671C8C2A51C5A70002C4BB /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		C2673159299AC9C40031DE09 /* LargeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeNavigationController.swift; sourceTree = "<group>"; };
 		C2673BE423D4765200A2CBA8 /* TokenStorageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStorageType.swift; sourceTree = "<group>"; };
 		C26764AB287245B100D468B2 /* ComposeServiceCategorySelectionFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeServiceCategorySelectionFlowController.swift; sourceTree = "<group>"; };
@@ -1927,10 +1903,6 @@
 		C26D147C2263D4D900599101 /* TimerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerHandler.swift; sourceTree = "<group>"; };
 		C26D1AC42600041400D3D868 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 		C26D4F532A856F590025E5BA /* AddingServiceTokenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingServiceTokenPresenter.swift; sourceTree = "<group>"; };
-		C26DE43A29C7B9ED003D0804 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/TwoFASWidget.strings; sourceTree = "<group>"; };
-		C26DE43B29C7B9ED003D0804 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C26DE43C29C7B9EE003D0804 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C26DE43D29C7B9EE003D0804 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C270365B293E9DDC00659CBF /* TokensModuleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokensModuleInteractor.swift; sourceTree = "<group>"; };
 		C2712217288D607D002F2018 /* ProtectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectionInteractor.swift; sourceTree = "<group>"; };
 		C271B64727BAE67500D0D743 /* ComposeServiceModuleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeServiceModuleInteractor.swift; sourceTree = "<group>"; };
@@ -2006,10 +1978,6 @@
 		C27E6FB928FCA73400AC9FD1 /* ItemHandlerMigrationProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemHandlerMigrationProxy.swift; sourceTree = "<group>"; };
 		C27FBA471FBA239600D424D8 /* ServiceEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServiceEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		C27FBA4B1FBA23DD00D424D8 /* ServiceEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServiceEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		C281909C2B0B84910042BB7D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/TwoFASWidget.strings; sourceTree = "<group>"; };
-		C281909D2B0B84910042BB7D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C281909E2B0B84910042BB7D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C281909F2B0B84910042BB7D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C2823B1526F3E84F00583586 /* RevealPasswordInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealPasswordInput.swift; sourceTree = "<group>"; };
 		C2830D79293D440900B3DDAF /* TokensPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokensPresenter.swift; sourceTree = "<group>"; };
 		C2830D7B293D49E700B3DDAF /* TokensViewController+CommonSearchDataSourceSearchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TokensViewController+CommonSearchDataSourceSearchable.swift"; sourceTree = "<group>"; };
@@ -2017,10 +1985,6 @@
 		C2830D7F293D4BDC00B3DDAF /* TokensViewController+TokensSectionHeaderDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TokensViewController+TokensSectionHeaderDataSource.swift"; sourceTree = "<group>"; };
 		C2830D81293D53CA00B3DDAF /* TokensMoveItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokensMoveItem.swift; sourceTree = "<group>"; };
 		C28356222897098300421882 /* SelectFromGalleryAdvice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectFromGalleryAdvice.swift; sourceTree = "<group>"; };
-		C284180F2A65E57000E0F700 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/TwoFASWidget.strings; sourceTree = "<group>"; };
-		C28418102A65E57100E0F700 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C28418112A65E57100E0F700 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C28418122A65E57200E0F700 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C284991027CC0FC70092098D /* ComposeServiceAlgorithmPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeServiceAlgorithmPresenter.swift; sourceTree = "<group>"; };
 		C284991227CC0FD40092098D /* ComposeServiceAlgorithmFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeServiceAlgorithmFlowController.swift; sourceTree = "<group>"; };
 		C284991827CC28650092098D /* ComposeServiceCounterFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeServiceCounterFlowController.swift; sourceTree = "<group>"; };
@@ -2475,10 +2439,6 @@
 		C2EFCE0625D05E320031293F /* ClearHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearHandler.swift; sourceTree = "<group>"; };
 		C2F134AF246844B10014FB4E /* MainContainerActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContainerActionButton.swift; sourceTree = "<group>"; };
 		C2F245D2293566F0006F7F5B /* Code+Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Code+Support.swift"; sourceTree = "<group>"; };
-		C2F2E0132A24AB5800E81225 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/TwoFASWidget.strings; sourceTree = "<group>"; };
-		C2F2E0142A24AB5900E81225 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C2F2E0152A24AB5B00E81225 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C2F2E0162A24AB5D00E81225 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C2F3393F214AB53F0072FE80 /* RatingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingController.swift; sourceTree = "<group>"; };
 		C2F4D9362A8D24EE00608F63 /* AddingServiceAdvancedRevealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingServiceAdvancedRevealView.swift; sourceTree = "<group>"; };
 		C2F4D9382A8D33FA00608F63 /* AddServiceAdvancedWarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServiceAdvancedWarningView.swift; sourceTree = "<group>"; };
@@ -2530,10 +2490,6 @@
 		C2FCB28D282589AC00AF8A37 /* NewsViewEmptyScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewEmptyScreen.swift; sourceTree = "<group>"; };
 		C2FCB28F28258B3A00AF8A37 /* NewsPlainFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsPlainFlowController.swift; sourceTree = "<group>"; };
 		C2FDAE8F1FD0B42B004BABE4 /* NotificationStateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationStateProtocol.swift; sourceTree = "<group>"; };
-		C2FDC8B329B5379A00623145 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/TwoFASWidget.strings"; sourceTree = "<group>"; };
-		C2FDC8B429B5379A00623145 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		C2FDC8B529B5379B00623145 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		C2FDC8B629B5379B00623145 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		C2FDEE53279C8F39002CAB9E /* CameraGoogleAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraGoogleAuth.swift; sourceTree = "<group>"; };
 		C2FDEE56279C8FF8002CAB9E /* SwiftUIButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButtons.swift; sourceTree = "<group>"; };
 		C2FDEE5C279CC271002CAB9E /* CameraScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScannerViewController.swift; sourceTree = "<group>"; };
@@ -8050,17 +8006,6 @@
 				en,
 				Base,
 				de,
-				"pt-PT",
-				fr,
-				es,
-				uk,
-				it,
-				pl,
-				"pt-BR",
-				id,
-				nl,
-				tr,
-				"zh-Hans",
 			);
 			mainGroup = C236666A1FB2644900989ACA;
 			packageReferences = (
@@ -9623,17 +9568,6 @@
 			children = (
 				C225E613241CFCD10041C238 /* en */,
 				C263F46E299060FD009B0837 /* de */,
-				C2FDC8B529B5379B00623145 /* pt-PT */,
-				C26DE43C29C7B9EE003D0804 /* fr */,
-				C262E83729E9AA97008D148E /* es */,
-				C22A82EA29EDCC5F00CCF6B1 /* uk */,
-				C261A1232A12BECD00A1519F /* it */,
-				C2F2E0152A24AB5B00E81225 /* pl */,
-				C2671C8B2A51C5A60002C4BB /* pt-BR */,
-				C28418112A65E57100E0F700 /* id */,
-				C22294E12A9F5B4400DB7965 /* nl */,
-				C281909E2B0B84910042BB7D /* tr */,
-				C21BF26C2B5B340100915507 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -9643,17 +9577,6 @@
 			children = (
 				C225E616241CFCE90041C238 /* en */,
 				C263F46D299060FC009B0837 /* de */,
-				C2FDC8B429B5379A00623145 /* pt-PT */,
-				C26DE43B29C7B9ED003D0804 /* fr */,
-				C262E83629E9AA96008D148E /* es */,
-				C22A82E929EDCC5F00CCF6B1 /* uk */,
-				C261A1222A12BECC00A1519F /* it */,
-				C2F2E0142A24AB5900E81225 /* pl */,
-				C2671C8A2A51C5A60002C4BB /* pt-BR */,
-				C28418102A65E57100E0F700 /* id */,
-				C22294E02A9F5B4300DB7965 /* nl */,
-				C281909D2B0B84910042BB7D /* tr */,
-				C21BF26B2B5B340100915507 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -9672,17 +9595,6 @@
 				C2A7B99126B706B000055738 /* Base */,
 				C284B41926BC700900321AC9 /* en */,
 				C263F46C299060FC009B0837 /* de */,
-				C2FDC8B329B5379A00623145 /* pt-PT */,
-				C26DE43A29C7B9ED003D0804 /* fr */,
-				C262E83529E9AA96008D148E /* es */,
-				C22A82E829EDCC5E00CCF6B1 /* uk */,
-				C261A1212A12BECC00A1519F /* it */,
-				C2F2E0132A24AB5800E81225 /* pl */,
-				C2671C892A51C5A60002C4BB /* pt-BR */,
-				C284180F2A65E57000E0F700 /* id */,
-				C22294DF2A9F5B4300DB7965 /* nl */,
-				C281909C2B0B84910042BB7D /* tr */,
-				C21BF26A2B5B340100915507 /* zh-Hans */,
 			);
 			name = TwoFASWidget.intentdefinition;
 			sourceTree = "<group>";
@@ -9692,17 +9604,6 @@
 			children = (
 				C2A7B99826B7077400055738 /* en */,
 				C263F46F299060FD009B0837 /* de */,
-				C2FDC8B629B5379B00623145 /* pt-PT */,
-				C26DE43D29C7B9EE003D0804 /* fr */,
-				C262E83829E9AA97008D148E /* es */,
-				C22A82EB29EDCC5F00CCF6B1 /* uk */,
-				C261A1242A12BECD00A1519F /* it */,
-				C2F2E0162A24AB5D00E81225 /* pl */,
-				C2671C8C2A51C5A70002C4BB /* pt-BR */,
-				C28418122A65E57200E0F700 /* id */,
-				C22294E22A9F5B4400DB7965 /* nl */,
-				C281909F2B0B84910042BB7D /* tr */,
-				C21BF26D2B5B340100915507 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -10475,7 +10376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = ZY8UR5ADFW;
+				DEVELOPMENT_TEAM = ADDH38ZULC;
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TwoFASAuth/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Two Factor Authentication Service, Inc. All rights reserved.";
@@ -10485,7 +10386,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 5.2.7;
+				MARKETING_VERSION = 2.0.0;
 				MERGED_BINARY_TYPE = manual;
 				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.TwoFASAuth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -10509,7 +10410,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = ZY8UR5ADFW;
+				DEVELOPMENT_TEAM = ADDH38ZULC;
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TwoFASAuth/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Two Factor Authentication Service, Inc. All rights reserved.";
@@ -10519,7 +10420,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 5.2.7;
+				MARKETING_VERSION = 2.0.0;
 				MERGED_BINARY_TYPE = manual;
 				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.TwoFASAuth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -10770,7 +10671,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 5.2.7;
+				MARKETING_VERSION = 2.0.0;
 				MERGED_BINARY_TYPE = manual;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -10804,7 +10705,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 5.2.7;
+				MARKETING_VERSION = 2.0.0;
 				MERGED_BINARY_TYPE = manual;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = at.anexia.authenticator.TwoFASServiceIntent;
