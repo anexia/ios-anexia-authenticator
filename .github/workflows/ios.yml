@@ -26,9 +26,8 @@ jobs:
       - name: Build for Testing
         if: always()
         run: |
-          xcodebuild build-for-testing -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -sdk iphonesimulator
+          xcodebuild build-for-testing -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=17.0.1,name=iPhone 15 Pro Max'
       - name: Run Tests
-        if: always()
         run: |
           xcodebuild test-without-building -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=17.0.1,name=iPhone 15 Pro Max'
       - name: Build/Release
