@@ -72,14 +72,12 @@ nesting:
 line_length:
   ignores_comments: true
 
-swiftlint_version: 0.52.4
-
 included:
   - ./
 
 excluded:
   - swiftgen
   - TwoFAS/CodeSupport/GoogleAuthenticator
-  - TwoFAS/update.swift
   - TwoFAS/Common/Generated
   - TwoFAS/Other/External
+  

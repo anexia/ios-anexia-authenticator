@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C28633CA1FFABD2200C8F4B4"
-               BuildableName = "TwoFASAuth.appex"
-               BlueprintName = "TwoFASAuth"
-               ReferencedContainer = "container:TwoFAS.xcodeproj">
+               BlueprintIdentifier = "C2C3AE0C269E224A00506ACF"
+               BuildableName = "AnexiaAutheticatorWidgetExtension.appex"
+               BlueprintName = "AnexiaAutheticatorWidgetExtension"
+               ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,8 +31,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C23666721FB2644900989ACA"
                BuildableName = "Anexia Authenticator.app"
-               BlueprintName = "TwoFAS"
-               ReferencedContainer = "container:TwoFAS.xcodeproj">
+               BlueprintName = "AnexiaAutheticator"
+               ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,36 +42,7 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C23666721FB2644900989ACA"
-            BuildableName = "Anexia Authenticator.app"
-            BlueprintName = "TwoFAS"
-            ReferencedContainer = "container:TwoFAS.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C2ACF9E320A8A918003E0987"
-               BuildableName = "TwoFASTests.xctest"
-               BlueprintName = "TwoFASTests"
-               ReferencedContainer = "container:TwoFAS.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C24D1C21253C744F0029D27D"
-               BuildableName = "SyncTests.xctest"
-               BlueprintName = "SyncTests"
-               ReferencedContainer = "container:TwoFAS.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -86,20 +57,33 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
-      <RemoteRunnable
-         runnableDebuggingMode = "1"
-         BundleIdentifier = "com.twofas.org"
-         RemotePath = "/var/containers/Bundle/Application/20B831F6-D78B-41E1-9A69-1530A84C4BFE/TwoFAS.app">
-      </RemoteRunnable>
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C23666721FB2644900989ACA"
             BuildableName = "Anexia Authenticator.app"
-            BlueprintName = "TwoFAS"
-            ReferencedContainer = "container:TwoFAS.xcodeproj">
+            BlueprintName = "AnexiaAutheticator"
+            ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "_XCWidgetKind"
+            value = ""
+            isEnabled = "NO">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "_XCWidgetDefaultView"
+            value = "timeline"
+            isEnabled = "NO">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "_XCWidgetFamily"
+            value = "medium"
+            isEnabled = "NO">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -114,8 +98,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C23666721FB2644900989ACA"
             BuildableName = "Anexia Authenticator.app"
-            BlueprintName = "TwoFAS"
-            ReferencedContainer = "container:TwoFAS.xcodeproj">
+            BlueprintName = "AnexiaAutheticator"
+            ReferencedContainer = "container:AnexiaAutheticator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

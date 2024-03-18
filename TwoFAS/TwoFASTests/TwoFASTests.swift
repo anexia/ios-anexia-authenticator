@@ -18,7 +18,7 @@
 //
 
 import XCTest
-@testable import TwoFAS
+@testable import Anexia_Authenticator
 import Common
 
 final class TwoFASTests: XCTestCase {
