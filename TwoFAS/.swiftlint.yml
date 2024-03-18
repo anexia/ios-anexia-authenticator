@@ -78,6 +78,6 @@ included:
 excluded:
   - swiftgen
   - TwoFAS/CodeSupport/GoogleAuthenticator
-  - TwoFAS/update.swift
   - TwoFAS/Common/Generated
   - TwoFAS/Other/External
+  
