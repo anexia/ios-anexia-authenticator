@@ -30,9 +30,7 @@ jobs:
       - name: Run Tests
         if: always()
         run: |
-          xcodebuild test-without-building -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=17.2,name=iPhone 15 Pro Max'
+          xcodebuild test-without-building -project ./TwoFas/${{env.PROJECT_NAME}}.xcodeproj -scheme ${{env.SCHEME}} -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=17.0.1,name=iPhone 15 Pro Max'
       - name: Build/Release
         if: always()
         uses: hectorguerrini/build-ios-action@v1.0.4
-
-      
