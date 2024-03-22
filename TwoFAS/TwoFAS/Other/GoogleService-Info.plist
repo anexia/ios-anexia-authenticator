@@ -2,41 +2,33 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
-	<string>ca-app-pub-3940256099942544/2934735716</string>
-	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
-	<string>ca-app-pub-3940256099942544/4411468910</string>
-	<key>CLIENT_ID</key>
-	<string>80066261136-rauqt46bb51hdu7k7vnp1mbsiesuqpt0.apps.googleusercontent.com</string>
-	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.80066261136-rauqt46bb51hdu7k7vnp1mbsiesuqpt0</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>657102836550-o61kdidhndmkg6bq3g69hpt3eub75bjv.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBosxgOaieshGpvsQ-hDMUzdXi66wmsCGI</string>
+	<string>AIzaSyDUwbRUG5mSJWzlPREftMHN4n653Lc0X1U</string>
 	<key>GCM_SENDER_ID</key>
-	<string>80066261136</string>
+	<string>657102836550</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.twofas.org</string>
+	<string>at.anexia.authenticator</string>
 	<key>PROJECT_ID</key>
-	<string>fas-d8cca</string>
+	<string>anexia-authenticator</string>
 	<key>STORAGE_BUCKET</key>
-	<string>fas-d8cca.appspot.com</string>
+	<string>anexia-authenticator.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false/>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
-	<false/>
+	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:80066261136:ios:9581da97887231e4</string>
+	<string>1:657102836550:ios:47b433033d5da53d288b47</string>
 	<key>DATABASE_URL</key>
-	<string>https://fas-d8cca.firebaseio.com</string>
-	<key>GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED</key>
-	<false/>
+	<string>https://anexia-authenticator.firebaseio.com</string>
 </dict>
 </plist>

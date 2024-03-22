@@ -177,7 +177,6 @@
 		C234433E2A8C09E700005F33 /* AddingServiceTextFieldLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234433D2A8C09E700005F33 /* AddingServiceTextFieldLineView.swift */; };
 		C23443402A8C12C200005F33 /* AddingServiceServiceIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234433F2A8C12C200005F33 /* AddingServiceServiceIconView.swift */; };
 		C23443DE26B08EAA00C9F645 /* ExtensionsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23443DD26B08EAA00C9F645 /* ExtensionsStorage.swift */; };
-		C2355B4B2221D33300BA001D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2355B4A2221D33300BA001D /* GoogleService-Info.plist */; };
 		C235A011298FD97D008F4FD0 /* MainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C235A010298FD97D008F4FD0 /* MainSplitViewController.swift */; };
 		C235A013298FE785008F4FD0 /* MainMenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C235A012298FE785008F4FD0 /* MainMenuPresenter.swift */; };
 		C235FA76229DAED80098F8E9 /* GridViewItemProviderWriting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C235FA75229DAED80098F8E9 /* GridViewItemProviderWriting.swift */; };
@@ -1056,6 +1055,7 @@
 		C2FDEE63279CC37E002CAB9E /* CameraScannerFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDEE62279CC37E002CAB9E /* CameraScannerFlowController.swift */; };
 		C2FF3EEA27B1A81100642FA4 /* CollectionViewDelegatee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF3EE927B1A81100642FA4 /* CollectionViewDelegatee.swift */; };
 		C2FF3EEC27B1CF0100642FA4 /* IconSelectorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF3EEB27B1CF0100642FA4 /* IconSelectorModels.swift */; };
+		E1FCA3112BACD8E200D5AE78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1FCA3102BACD8E100D5AE78 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1683,7 +1683,6 @@
 		C234433D2A8C09E700005F33 /* AddingServiceTextFieldLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingServiceTextFieldLineView.swift; sourceTree = "<group>"; };
 		C234433F2A8C12C200005F33 /* AddingServiceServiceIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingServiceServiceIconView.swift; sourceTree = "<group>"; };
 		C23443DD26B08EAA00C9F645 /* ExtensionsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsStorage.swift; sourceTree = "<group>"; };
-		C2355B4A2221D33300BA001D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C235A010298FD97D008F4FD0 /* MainSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSplitViewController.swift; sourceTree = "<group>"; };
 		C235A012298FE785008F4FD0 /* MainMenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuPresenter.swift; sourceTree = "<group>"; };
 		C235FA75229DAED80098F8E9 /* GridViewItemProviderWriting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewItemProviderWriting.swift; sourceTree = "<group>"; };
@@ -2499,6 +2498,7 @@
 		C2FE36292517FF8D00035643 /* VoiceOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOver.swift; sourceTree = "<group>"; };
 		C2FF3EE927B1A81100642FA4 /* CollectionViewDelegatee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDelegatee.swift; sourceTree = "<group>"; };
 		C2FF3EEB27B1CF0100642FA4 /* IconSelectorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSelectorModels.swift; sourceTree = "<group>"; };
+		E1FCA3102BACD8E100D5AE78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -6127,11 +6127,11 @@
 		C2BDC6BF1FC1ABF600967D0E /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				E1FCA3102BACD8E100D5AE78 /* GoogleService-Info.plist */,
 				C24E3E5B2AB8F13A008A7158 /* Guides */,
 				C2D17FF3291BB5D90072EBFD /* Generated */,
 				C2F8702A262C7A900032DB1F /* FileIcons */,
 				C2CB5D1125DB1B7E00A362A9 /* External */,
-				C2355B4A2221D33300BA001D /* GoogleService-Info.plist */,
 				C2BDC6DE1FC1F66F00967D0E /* TwoFAS.entitlements */,
 				C2D291DB2955FC9E0084FE1E /* Settings.bundle */,
 				C225E617241CFCE90041C238 /* Localizable.strings */,
@@ -8077,10 +8077,10 @@
 				C29B9ADD2B1E859D00255A2C /* instagram.json in Resources */,
 				C24E3E652AB8F15A008A7158 /* rockstar_games.json in Resources */,
 				C24E3E682AB8F15A008A7158 /* epic_games.json in Resources */,
-				C2355B4B2221D33300BA001D /* GoogleService-Info.plist in Resources */,
 				C24E3E6A2AB8F15A008A7158 /* amazon.json in Resources */,
 				C225E615241CFCE90041C238 /* Localizable.strings in Resources */,
 				C24E3E6B2AB8F15A008A7158 /* linkedin.json in Resources */,
+				E1FCA3112BACD8E200D5AE78 /* GoogleService-Info.plist in Resources */,
 				C29B9ADC2B1E859D00255A2C /* reddit.json in Resources */,
 				C23666811FB2644900989ACA /* Assets.xcassets in Resources */,
 				C24E3E662AB8F15A008A7158 /* universal.json in Resources */,
@@ -10593,7 +10593,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = ZY8UR5ADFW;
+				DEVELOPMENT_TEAM = ADDH38ZULC;
 				INFOPLIST_FILE = TwoFASWidget/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Two Factor Authentication Service, Inc. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
@@ -10629,7 +10629,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = ZY8UR5ADFW;
+				DEVELOPMENT_TEAM = ADDH38ZULC;
 				INFOPLIST_FILE = TwoFASWidget/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Two Factor Authentication Service, Inc. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
@@ -10662,7 +10662,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = ZY8UR5ADFW;
+				DEVELOPMENT_TEAM = ADDH38ZULC;
 				INFOPLIST_FILE = TwoFASServiceIntent/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Two Factor Authentication Service, Inc. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
@@ -10696,7 +10696,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = ZY8UR5ADFW;
+				DEVELOPMENT_TEAM = ADDH38ZULC;
 				INFOPLIST_FILE = TwoFASServiceIntent/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Two Factor Authentication Service, Inc. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
@@ -10789,7 +10789,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZY8UR5ADFW;
+				DEVELOPMENT_TEAM = ADDH38ZULC;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -10836,7 +10836,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZY8UR5ADFW;
+				DEVELOPMENT_TEAM = ADDH38ZULC;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -10881,7 +10881,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZY8UR5ADFW;
+				DEVELOPMENT_TEAM = ADDH38ZULC;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -10928,7 +10928,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZY8UR5ADFW;
+				DEVELOPMENT_TEAM = ADDH38ZULC;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
