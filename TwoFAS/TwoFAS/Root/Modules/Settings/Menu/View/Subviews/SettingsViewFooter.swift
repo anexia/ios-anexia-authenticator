@@ -28,10 +28,10 @@ final class SettingsViewFooter: UIView {
     
     var openURL: ((SocialChannel) -> Void)?
     
-    private var discordButton: UIButton = {
+    private var facebookButton: UIButton = {
         let button = UIButton()
-        button.setImage(Asset.socialLargeDiscord.image, for: .normal)
-        button.accessibilityLabel = T.Social.discord
+        // button.setImage(Asset.socialLargeFaceboook.image, for: .normal)
+        button.accessibilityLabel = T.Social.facebook
         return button
     }()
     
@@ -49,10 +49,10 @@ final class SettingsViewFooter: UIView {
         return button
     }()
     
-    private var githubButton: UIButton = {
+    private var instagramButton: UIButton = {
         let button = UIButton()
-        button.setImage(Asset.socialLargeGithub.image, for: .normal)
-        button.accessibilityLabel = T.Social.github
+        // button.setImage(Asset.socialLargeInstagram.image, for: .normal)
+        button.accessibilityLabel = T.Social.instagram
         return button
     }()
     
@@ -89,12 +89,12 @@ final class SettingsViewFooter: UIView {
         constraint = stackView.centerXAnchor.constraint(equalTo: centerXAnchor)
         constraint?.isActive = true
         
-        stackView.addArrangedSubviews([discordButton, youtubeButton, twitterButton, githubButton])
+        stackView.addArrangedSubviews([facebookButton, youtubeButton, twitterButton, instagramButton])
         
-        discordButton.addTarget(self, action: #selector(discordAction), for: .touchUpInside)
+        facebookButton.addTarget(self, action: #selector(facebookAction), for: .touchUpInside)
         youtubeButton.addTarget(self, action: #selector(youtubeAction), for: .touchUpInside)
         twitterButton.addTarget(self, action: #selector(twitterAction), for: .touchUpInside)
-        githubButton.addTarget(self, action: #selector(githubAction), for: .touchUpInside)
+        instagramButton.addTarget(self, action: #selector(instagramAction), for: .touchUpInside)
     }
     
     override func layoutMarginsDidChange() {
@@ -105,8 +105,8 @@ final class SettingsViewFooter: UIView {
     }
     
     @objc
-    private func discordAction() {
-        openURL?(.discord)
+    private func facebookAction() {
+        openURL?(.facebook)
     }
 
     @objc
@@ -120,7 +120,7 @@ final class SettingsViewFooter: UIView {
     }
     
     @objc
-    private func githubAction() {
-        openURL?(.github)
+    private func instagramAction() {
+        openURL?(.instagram)
     }
 }

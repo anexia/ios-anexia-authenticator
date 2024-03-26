@@ -1214,6 +1214,8 @@ internal enum T {
     internal static let twitter = T.tr("Localizable", "social__twitter", fallback: "X (formerly Twitter)")
     /// YouTube
     internal static let youtube = T.tr("Localizable", "social__youtube", fallback: "YouTube")
+    /// Instagram
+    internal static let instagram = T.tr("Localizable", "social__instagram", fallback: "Instagram")
   }
   internal enum Tokens {
     /// Point your camera at the screen to capture the QR code.

@@ -50,7 +50,7 @@ final class UserIconInfoFlowController: FlowController {
 
 extension UserIconInfoFlowController: UserIconInfoFlowControlling {
     func toSocial() {
-        UIApplication.shared.open(SocialChannel.discord.url, completionHandler: nil)
+        // UIApplication.shared.open(SocialChannel.discord.url, completionHandler: nil)
     }
     
     func toShare() {

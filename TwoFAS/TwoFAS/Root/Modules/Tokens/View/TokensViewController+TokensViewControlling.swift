@@ -128,20 +128,6 @@ extension TokensViewController: TokensViewControlling {
     
     // MARK: - Navibar icons
     func updateAddIcon(using state: TokensViewControllerAddState) {
-        func createNewsIcon() -> UIBarButtonItem {
-            let img: UIImage = {
-                presenter.hasUnreadNews ? Asset.navibarNewsIconBadge.image : Asset.navibarNewsIcon.image
-            }()
-            img.withTintColor(Theme.Colors.Icon.theme)
-            let button = UIBarButtonItem(
-                image: img,
-                style: .plain,
-                target: self,
-                action: #selector(showNotifications)
-            )
-            button.accessibilityLabel = T.Commons.notifications
-            return button
-        }
         
         func createAddButton(image: UIImage) -> UIBarButtonItem {
             let buttonAdd = UIBarButtonItem(
@@ -158,12 +144,10 @@ extension TokensViewController: TokensViewControlling {
         case .firstTime:
             navigationItem.rightBarButtonItems = [
                 createAddButton(image: Asset.naviIconAddFirst.image),
-                createNewsIcon()
             ]
         case .normal:
             navigationItem.rightBarButtonItems = [
                 createAddButton(image: Asset.naviIconAdd.image),
-                createNewsIcon()
             ]
         case .none:
             let buttonSection = UIBarButtonItem(

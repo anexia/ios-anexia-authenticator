@@ -20,11 +20,9 @@
 import Foundation
 
 public enum SocialChannel: Hashable {
-    case discord
+    case instagram
     case youtube
     case twitter
-    case github
     case facebook
-    case reddit
     case linkedin
 }

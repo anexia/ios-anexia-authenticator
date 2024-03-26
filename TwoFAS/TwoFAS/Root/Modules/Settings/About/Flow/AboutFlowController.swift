@@ -86,7 +86,7 @@ extension AboutFlowController: AboutFlowControlling {
     func toWriteReview() {
         UIApplication.shared.open(
             URL(
-                string: "https://itunes.apple.com/us/app/2fa-authenticator-2fas/id1217793794?mt=8&action=write-review"
+                string: "https://itunes.apple.com/at/app/anexia-authenticator/id1358602833?mt=8&action=write-review"
             )!,
             options: [:],
             completionHandler: nil

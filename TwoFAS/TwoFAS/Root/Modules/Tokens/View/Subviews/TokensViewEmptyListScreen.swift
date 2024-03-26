@@ -119,19 +119,6 @@ final class TokensViewEmptyListScreen: UIView {
         headerStackView.addArrangedSubviews([iconImage, headerLabel])
         buttonsStackView.addArrangedSubviews([pairNewServiceButton, importButton])
         
-        addSubview(helpButton, with: [
-            helpButton.topAnchor.constraint(
-                greaterThanOrEqualTo: mainStackView.bottomAnchor,
-                constant: Theme.Metrics.standardMargin
-            ),
-            helpButton.centerXAnchor.constraint(equalTo: centerXAnchor),
-            helpButton.widthAnchor.constraint(equalToConstant: Theme.Metrics.componentWidth),
-            helpButton.bottomAnchor.constraint(
-                lessThanOrEqualTo: safeBottomAnchor,
-                constant: -Theme.Metrics.standardMargin
-            )
-        ])
-        
         pairNewServiceButton.action = { [weak self] in self?.pairNewService?() }
         importButton.action = { [weak self] in self?.importFromExternalService?() }
         helpButton.action = { [weak self] in self?.help?() }

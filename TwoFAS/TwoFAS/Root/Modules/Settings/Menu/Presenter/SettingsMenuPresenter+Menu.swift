@@ -117,25 +117,12 @@ extension SettingsMenuPresenter {
             title: T.Commons.info,
             cells: [
                 .init(
-                    icon: Asset.settingsFAQ.image,
-                    title: T.Settings.support,
-                    accessory: .external,
-                    action: .navigation(navigatesTo: .faq)
-                ),
-                .init(
                     icon: Asset.settingsInfo.image,
                     title: T.Settings.about,
                     accessory: .arrow,
                     action: .navigation(navigatesTo: .about)
                 ),
-                .init(
-                    icon: Asset.settingsDonate.image,
-                    title: T.Settings.donateTwofas,
-                    accessory: .donate,
-                    action: .navigation(navigatesTo: .donate)
-                )
-            ],
-            footer: T.Settings.infoFooter
+            ]
         )
 
         var menu: [SettingsMenuSection] = []

@@ -25,19 +25,14 @@ extension AboutPresenter {
             .init(title: T.Settings.general, cells: [
                 .init(title: T.Settings.writeAReview, accessory: .external, action: .writeReview),
                 .init(title: T.Settings.privacyPolicy, accessory: .external, action: .privacyPolicy),
-                .init(title: T.Settings.termsOfService, accessory: .external, action: .tos),
                 .init(title: T.Settings.acknowledgements, accessory: .external, action: .acknowledgements)
-            ]),
-            .init(title: T.Settings.shareApp, cells: [
-                .init(title: T.Settings.tellAFriend, accessory: .share, action: .share)
-            ]),
-            
+            ]),            
             .init(title: T.Social.socialMedia, cells: [
                 .init(
-                    title: T.Social.discord,
+                    title: T.Social.instagram,
                     accessory: .external,
-                    action: .social(.discord),
-                    icon: Asset.socialDiscord.image
+                    action: .social(.instagram),
+                    icon: nil
                 ),
                 .init(
                     title: T.Social.youtube,
@@ -52,22 +47,10 @@ extension AboutPresenter {
                     icon: Asset.socialTwitter.image
                 ),
                 .init(
-                    title: T.Social.github,
-                    accessory: .external,
-                    action: .social(.github),
-                    icon: Asset.socialGithub.image
-                ),
-                .init(
                     title: T.Social.linkedin,
                     accessory: .external,
                     action: .social(.linkedin),
                     icon: Asset.socialLinkedin.image
-                ),
-                .init(
-                    title: T.Social.reddit,
-                    accessory: .external,
-                    action: .social(.reddit),
-                    icon: Asset.socialReddit.image
                 ),
                 .init(
                     title: T.Social.facebook,
@@ -75,9 +58,6 @@ extension AboutPresenter {
                     action: .social(.facebook),
                     icon: Asset.socialFacebook.image
                 )
-            ]),
-            .init(title: T.Settings.support, cells: [
-                .init(title: T.Settings.sendLogs, accessory: .noAccessory, action: .sendLogs)
             ]),
             .init(
                 title: T.Settings.aboutCrashOptoutTitle,
