@@ -45,9 +45,9 @@ extension IntroductionViewController {
         }
         
         private func commonInit() {
-            addSubview(tocButton)
-            tocButton.pinToParent()
-            tocButton.addTarget(self, action: #selector(tocAction), for: .touchUpInside)
+            // addSubview(tocButton)
+            // tocButton.pinToParent()
+            // tocButton.addTarget(self, action: #selector(tocAction), for: .touchUpInside)
             
             addSubview(dots, with: [
                 dots.centerYAnchor.constraint(equalTo: centerYAnchor)
