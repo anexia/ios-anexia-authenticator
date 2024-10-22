@@ -18,7 +18,11 @@
 //
 
 import Foundation
+#if os(iOS)
 import Common
+#elseif os(watchOS)
+import CommonWatch
+#endif
 
 extension StorageRepositoryImpl {
     func createNewsEntry(from newsEntry: ListNewsEntry) {
@@ -85,7 +89,8 @@ private extension StorageRepositoryImpl {
                     message: entity.message,
                     publishedAt: entity.publishedAt,
                     createdAt: entity.createdAt,
-                    wasRead: entity.wasRead
+                    wasRead: entity.wasRead,
+                    internalLink: nil
                 )
             })
     }

@@ -19,6 +19,7 @@
 
 import UIKit
 import Data
+import Common
 
 protocol RootModuleInteracting: AnyObject {
     var introductionWasShown: Bool { get }
@@ -28,7 +29,7 @@ protocol RootModuleInteracting: AnyObject {
     func initializeApp()
     func applicationWillResignActive()
     func applicationWillEnterForeground()
-    func applicationDidBecomeActive()
+    func applicationDidBecomeActive(didCopyToken: @escaping Callback)
     func applicationWillTerminate()
     
     func lockApplicationIfNeeded(presentLoginImmediately: @escaping () -> Void)
@@ -43,7 +44,7 @@ protocol RootModuleInteracting: AnyObject {
     )
     
     func lockScreenActive()
-    func lockScreenInactive()
+    func lockScreenInactive()    
 }
 
 final class RootModuleInteractor {
@@ -54,19 +55,28 @@ final class RootModuleInteractor {
     private let fileInteractor: FileInteracting
     private let registerDeviceInteractor: RegisterDeviceInteracting
     private let appStateInteractor: AppStateInteracting
+    private let notificationInteractor: NotificationInteracting
+    private let widgetsInteractor: WidgetsInteracting
+    private let localNotificationStateInteractor: LocalNotificationStateInteracting
     
     init(
         rootInteractor: RootInteracting,
         linkInteractor: LinkInteracting,
         fileInteractor: FileInteracting,
         registerDeviceInteractor: RegisterDeviceInteracting,
-        appStateInteractor: AppStateInteracting
+        appStateInteractor: AppStateInteracting,
+        notificationInteractor: NotificationInteracting,
+        widgetsInteractor: WidgetsInteracting,
+        localNotificationStateInteractor: LocalNotificationStateInteracting
     ) {
         self.rootInteractor = rootInteractor
         self.linkInteractor = linkInteractor
         self.fileInteractor = fileInteractor
         self.registerDeviceInteractor = registerDeviceInteractor
         self.appStateInteractor = appStateInteractor
+        self.notificationInteractor = notificationInteractor
+        self.widgetsInteractor = widgetsInteractor
+        self.localNotificationStateInteractor = localNotificationStateInteractor
         
         rootInteractor.storageError = { [weak self] error in
             self?.storageError?(error)
@@ -87,7 +97,7 @@ extension RootModuleInteractor: RootModuleInteracting {
         rootInteractor.initializeApp()
         registerDeviceInteractor.initialize()
     }
-    
+
     func lockApplicationIfNeeded(presentLoginImmediately: @escaping () -> Void) {
         rootInteractor.lockApplicationIfNeeded(
             presentLoginImmediately: presentLoginImmediately
@@ -106,8 +116,14 @@ extension RootModuleInteractor: RootModuleInteracting {
         rootInteractor.applicationWillTerminate()
     }
     
-    func applicationDidBecomeActive() {
+    func applicationDidBecomeActive(didCopyToken: @escaping Callback) {
+        if let token = widgetsInteractor.exchangeToken {
+            notificationInteractor.copyWithSuccess(value: token)
+            widgetsInteractor.clearExchangeToken()
+            didCopyToken()
+        }
         rootInteractor.applicationDidBecomeActive()
+        localNotificationStateInteractor.activate()
     }
     
     func shouldHandleURL(url: URL) -> Bool {

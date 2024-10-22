@@ -21,10 +21,7 @@ import Foundation
 import Storage
 import Common
 import NetworkStack
-import PushNotifications
-
-typealias CloudStateListenerID = String
-typealias CloudStateListener = (CloudState) -> Void
+@_implementationOnly import PushNotifications
 
 protocol MainRepository: AnyObject {
     // MARK: - Security
@@ -66,6 +63,10 @@ protocol MainRepository: AnyObject {
     func disableWidgets()
     func markWidgetEnablingWarningAsShown()
     func reloadWidgets()
+    // MARK: Exchange Token
+    var exchangeToken: String? { get }
+    func setExchangeToken(_ key: String)
+    func clearExchangeToken()
     
     // MARK: - Appearance
     
@@ -118,6 +119,7 @@ protocol MainRepository: AnyObject {
     // MARK: - Cloud
     var secretSyncError: ((String) -> Void)? { get set }
     var isCloudBackupConnected: Bool { get }
+    var successSyncDate: Date? { get }
     var cloudCurrentState: CloudState { get }
     func registerForCloudStateChanges(_ listener: @escaping CloudStateListener, id: CloudStateListenerID)
     func unregisterForCloudStageChanges(with id: CloudStateListenerID)
@@ -129,6 +131,7 @@ protocol MainRepository: AnyObject {
         userInfo: [AnyHashable: Any],
         fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void
     )
+    func saveSuccessSyncDate(_ date: Date?)
     
     // MARK: - Import
     var fileURL: URL? { get set }
@@ -250,6 +253,9 @@ protocol MainRepository: AnyObject {
     func clearStoredURL()
     func codeFromStoredURL() -> Code?
     func codeTypeFromStoredURL() -> CodeType?
+    var hasIncorrectCode: Bool { get }
+    func clearHasIncorrectCode()
+    func saveHasIncorrectCode()
     
     // MARK: - Old controllers
     var security: SecurityProtocol { get }
@@ -464,4 +470,31 @@ protocol MainRepository: AnyObject {
     
     // MARK: - Time Verification
     func timeVerificationStart()
+    
+    // MARK: - MDM options
+    var mdmIsBackupBlocked: Bool { get }
+    var mdmIsBiometryBlocked: Bool { get }
+    var mdmIsBrowserExtensionBlocked: Bool { get }
+    var mdmLockoutAttempts: AppLockAttempts? { get }
+    var mdmLockoutBlockTime: AppLockBlockTime? { get }
+    var mdmIsPasscodeRequried: Bool { get }
+    
+    // MARK: - Local Notifications
+    var localNotificationPublicationDate: Date? { get }
+    func saveLocalNotificationPublicationDate(_ date: Date?)
+    
+    var localNotificationPublicationID: String? { get }
+    func saveLocalNotificationPublicationID(_ ID: String?)
+    
+    var localNotificationWasRead: Bool { get }
+    func saveLocalNotificationWasRead(_ wasRead: Bool)
+    
+    var localNotificationCycle: Int { get }
+    func saveLocalNotificationCycle(_ cycle: Int)
+    
+    var runCount: Int { get }
+    func saveRunCount(_ count: Int)
+    
+    var localNotificationsHandled: Bool { get }
+    func markLocalNotificationsAsHandled()
 }

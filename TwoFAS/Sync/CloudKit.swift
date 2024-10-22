@@ -19,7 +19,13 @@
 
 import Foundation
 import CloudKit
+#if os(iOS)
+import UIKit
 import Common
+#elseif os(watchOS)
+import CommonWatch
+import WatchKit
+#endif
 
 final class CloudKit {
     typealias DeletedEntries = ([(name: String, type: String)]) -> Void
@@ -37,6 +43,7 @@ final class CloudKit {
     var useriCloudProblem: Callback?
     var userLoggedOut: Callback?
     var resetStack: Callback?
+    var abortSync: Callback?
     
     var fetchFinishedSuccessfuly: Callback?
     var changesSavedSuccessfuly: Callback?
@@ -472,6 +479,27 @@ final class CloudKit {
         zoneUpdated = false
         
         DispatchQueue.main.async {
+            #if os(iOS)
+            if UIApplication.shared.applicationState == .background {
+                self.abortSync?()
+                self.syncTokenHandler.prepare()
+                self.clearRecordChanges()
+                self.operation?.cancel()
+                self.operation = nil
+                return
+            }
+            #elseif os(watchOS)
+            if WKApplication.shared()
+                .applicationState == .background || WKApplication.shared().applicationState == .inactive {
+                self.abortSync?()
+                self.syncTokenHandler.prepare()
+                self.clearRecordChanges()
+                self.operation?.cancel()
+                self.operation = nil
+                return
+            }
+            #endif
+            
             if !self.deletedRecords.isEmpty {
                 Log("CloudKit - deletedRecords not empty", module: .cloudSync)
                 self.deletedEntries?(self.deletedRecords.map { (name: $0.record.recordName, type: $0.type) })

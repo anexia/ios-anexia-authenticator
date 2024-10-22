@@ -19,6 +19,7 @@
 
 import Foundation
 import Data
+import Common
 
 final class NewPINPresenter: PINKeyboardPresenter {
     weak var view: NewPINViewControlling?
@@ -35,6 +36,12 @@ final class NewPINPresenter: PINKeyboardPresenter {
         
         super.init()
         codeLength = interactor.pinType.digits
+    }
+    
+    func viewDidLoad() {
+        if !interactor.lockNavigation {
+            view?.showCancelButton()
+        }
     }
     
     override func viewWillAppear() {

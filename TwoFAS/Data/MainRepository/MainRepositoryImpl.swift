@@ -20,7 +20,7 @@
 import Foundation
 import Storage
 import Protection
-import PushNotifications
+@_implementationOnly import PushNotifications
 import Common
 import Sync
 import NetworkStack
@@ -50,6 +50,7 @@ final class MainRepositoryImpl: MainRepository {
     let serviceDefinitionDatabase: ServiceDefinitionDatabase = ServiceDefinitionDatabaseImpl()
     let iconDescriptionDatabase: IconDescriptionDatabase = IconDescriptionDatabaseImpl()
     let initialPermissionStateDataController = PermissionsStateDataController()
+    let mdmRepository: MDMRepository = MDMRepositoryImpl()
     
     let serviceNameTranslation: String
     let notificationCenter = NotificationCenter.default
@@ -77,6 +78,7 @@ final class MainRepositoryImpl: MainRepository {
     }
     
     var storedURL: URL?
+    var hasIncorrectCode: Bool
     var fileURL: URL?
     var sslNetworkError = false
     var lastFetchedNewsTimestamp: Date?
@@ -85,6 +87,7 @@ final class MainRepositoryImpl: MainRepository {
     var storageError: ((String) -> Void)?
     
     var _isLockScreenActive = false
+    var _areLocalNotificationsHandled = false
     
     // Cached values for higher pefrormance
     var cachedSortType: SortType?
@@ -160,7 +163,7 @@ final class MainRepositoryImpl: MainRepository {
         
         storageRepository = storage.storageRepository
         timeVerificationController.log = { value in Log(value, module: .counter) }
-        
+        hasIncorrectCode = false
         security.interactor = AppLockStateInteractor(mainRepository: self)
         MainRepositoryImpl._shared = self
         

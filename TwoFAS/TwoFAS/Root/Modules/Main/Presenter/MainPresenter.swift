@@ -18,6 +18,8 @@
 //
 
 import UIKit
+import Data
+import Common
 
 final class MainPresenter {
     weak var view: MainViewControlling?
@@ -42,7 +44,7 @@ final class MainPresenter {
     func viewWillAppear() {
        viewIsVisible()
     }
-
+    
     func handleSwitchToSetupPIN() {
         view?.navigateToViewPath(.settings(option: .security))
     }
@@ -55,6 +57,10 @@ final class MainPresenter {
         view?.navigateToViewPath(.settings(option: .externalImport))
     }
     
+    func handleSwitchToBackup() {
+        view?.navigateToViewPath(.settings(option: .backup))
+    }
+    
     func handleSwitchedToSettings() {
         view?.settingsTabActive()
     }
@@ -65,11 +71,11 @@ final class MainPresenter {
     
     func handleRefreshAuthList() {
         guard !interactor.isAppLocked else { return }
-        flowController.toAuthRequestFetch()
+        handleAuthRequest()
     }
     
     func handleAuthorize(for tokenRequestID: String) {
-        guard !interactor.isAppLocked else { return }
+        guard !interactor.isAppLocked && interactor.isBrowserExtensionAllowed else { return }
         flowController.toAuthorize(for: tokenRequestID)
     }
     
@@ -82,13 +88,28 @@ final class MainPresenter {
     func handleViewIsVisible() {
         viewIsVisible()
     }
+    
+    func handleSyncCompletedSuccessfuly() {
+        interactor.saveSuccessSync()
+    }
+    
+    func handleClearSyncCompletedSuccessfuly() {
+        interactor.clearSavesuccessSync()
+    }
+
+    func handleSavePIN(_ PIN: String, pinType: PINType) {
+        interactor.savePIN(PIN, ofType: pinType)
+    }
 }
 
 private extension MainPresenter {
     func viewIsVisible() {
         guard !interactor.isAppLocked && !handlingViewIsVisible else { return }
         handlingViewIsVisible = true
-        if let url = interactor.checkForImport() {
+        interactor.applyMDMRules()
+        if interactor.shouldSetPasscode {
+            flowController.toSetPIN()
+        } else if let url = interactor.checkForImport() {
             flowController.toOpenFileImport(url: url)
             interactor.clearImportedFileURL()
             handlingViewIsVisible = false
@@ -113,6 +134,8 @@ private extension MainPresenter {
     }
     
     func handleAuthRequest() {
-        flowController.toAuthRequestFetch()
+        if interactor.isBrowserExtensionAllowed {
+            flowController.toAuthRequestFetch()
+        }
     }
 }

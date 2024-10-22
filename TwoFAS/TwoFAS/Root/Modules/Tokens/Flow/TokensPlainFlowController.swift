@@ -25,6 +25,7 @@ import SwiftUI
 protocol TokensPlainFlowControllerParent: AnyObject {
     func tokensSwitchToTokensTab()
     func tokensSwitchToSettingsExternalImport()
+    func tokensSwitchToSettingsBackup()
 }
 
 protocol TokensPlainFlowControlling: AnyObject {
@@ -45,6 +46,7 @@ protocol TokensPlainFlowControlling: AnyObject {
     func toShowGallery()
     func toHelp()
     // MARK: Link actions
+    func toIncorrectCode()
     func toDuplicatedCode(forceAdd: @escaping Callback, cancel: @escaping Callback)
     func toShowShouldAddCode(with descriptionText: String?)
     func toSendLogs(auditID: UUID)
@@ -255,6 +257,19 @@ extension TokensPlainFlowController: TokensPlainFlowControlling {
             self?.viewController.presenter.handleAddStoredCode()
         })
         
+        mainSplitViewController.present(alert, animated: true)
+    }
+    
+    func toIncorrectCode() {
+        guard let mainSplitViewController, mainSplitViewController.presentedViewController == nil else { return }
+        
+        let alert = UIAlertController(
+            title: T.Commons.warning,
+            message: T.Tokens.thisQrCodeIsInavlid,
+            preferredStyle: .alert
+        )
+        alert.addAction(UIAlertAction(title: T.Commons.cancel, style: .cancel, handler: { _ in }))
+
         mainSplitViewController.present(alert, animated: true)
     }
     
@@ -639,6 +654,13 @@ extension TokensPlainFlowController: NewsNavigationFlowControllerParent {
     func newsClose() {
         viewController.presenter.handleRefreshNewsStatus()
         dismiss()
+    }
+    
+    func newsToBackup() {
+        viewController.presenter.handleRefreshNewsStatus()
+        dismiss { [weak self] in
+            self?.parent?.tokensSwitchToSettingsBackup()
+        }
     }
 }
 
