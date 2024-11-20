@@ -145,9 +145,13 @@ final class RootPresenter {
         
         Log("RootPresenter: Changing state for: \(currentState)")
         
+        // no intro should be shown
+        /*
         if !interactor.introductionWasShown {
             presentIntroduction()
-        } else if interactor.isAuthenticationRequired {
+        } else */
+        
+        if interactor.isAuthenticationRequired {
             presentLogin(immediately: coldRun)
         } else {
             presentMain(immediately: coldRun)

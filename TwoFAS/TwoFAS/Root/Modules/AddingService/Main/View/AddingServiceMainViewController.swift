@@ -151,13 +151,14 @@ private struct AddingServiceMain: View {
             }
             .accessibilityAddTraits(.isButton)
             
+            /*
             AddingServiceFullWidthButtonWithImage(
                 text: T.Tokens.addWithGuide,
                 icon: Asset.guidesIcon.swiftUIImage
             ) {
                 presenter.handleToGuides()
             }
-            .accessibilityAddTraits(.isButton)
+            .accessibilityAddTraits(.isButton)*/
         }
         .padding(.horizontal, Theme.Metrics.doubleMargin)
         .observeHeight(onChange: { height in
