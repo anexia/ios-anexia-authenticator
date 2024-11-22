@@ -64,7 +64,7 @@ final class MainMenuViewController: UIViewController {
                     attributes: [
                         .foregroundColor: Theme.Colors.Fill.theme,
                         .baselineOffset: 10,
-                        .font: UIFont.systemFont(ofSize: 10, weight: .bold)
+                        .font: UIFont(name: "FiraSans-Bold", size: 10) ?? UIFont.systemFont(ofSize: 10, weight: .bold)
                     ]
                 )
                 contentConfiguration.attributedText = attributedString

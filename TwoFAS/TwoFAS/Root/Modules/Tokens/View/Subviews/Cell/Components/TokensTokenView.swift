@@ -243,10 +243,10 @@ private class TokensTokenLabel: UILabel {
     func setKind(_ kind: TokensCellKind) {
         switch kind {
         case .compact:
-            font = UIFont.monospacedDigitSystemFont(ofSize: 30, weight: .thin)
+            font = UIFont(name: "FiraSans-Thin", size: 30) ?? UIFont.monospacedDigitSystemFont(ofSize: 30, weight: .thin)
         case .normal:
             font = UIFontMetrics(forTextStyle: .largeTitle)
-                .scaledFont(for: UIFont.monospacedDigitSystemFont(ofSize: 50, weight: .thin))
+                .scaledFont(for: UIFont(name: "FiraSans-Thin", size: 50) ?? UIFont.monospacedDigitSystemFont(ofSize: 50, weight: .thin))
         default:
             break
         }

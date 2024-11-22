@@ -85,7 +85,7 @@ public enum LabelImageRenderer {
         paragraphStyle.alignment = .center
         
         let attrs: [NSAttributedString.Key: Any] = [
-            .font: UIFont.systemFont(ofSize: textSize, weight: .bold),
+            .font: UIFont(name: "FiraSans-Bold", size: textSize) ?? UIFont.systemFont(ofSize: textSize, weight: .bold),
             .paragraphStyle: paragraphStyle,
             .foregroundColor: textColor
         ]

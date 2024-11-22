@@ -40,7 +40,7 @@ struct IconRenderer: View {
                         .foregroundStyle(Color("ColorLabelTextBackground"))
                     Text(verbatim: service.labelTitle)
                         .foregroundStyle(Color("ColorLabelText"))
-                        .font(Font(UIFont.systemFont(ofSize: 6, weight: .bold)))
+                        .font(Font(UIFont(name: "FiraSans-Bold", size: 6) ?? UIFont.systemFont(ofSize: 6, weight: .bold)))
                         .multilineTextAlignment(.center)
                         .frame(width: 22, height: 6, alignment: .center)
                 }

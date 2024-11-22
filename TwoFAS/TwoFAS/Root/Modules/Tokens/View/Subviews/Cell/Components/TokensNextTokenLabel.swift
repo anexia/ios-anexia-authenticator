@@ -44,10 +44,10 @@ final class TokensNextTokenLabel: UILabel {
     func setKind(_ kind: TokensCellKind) {
         switch kind {
         case .compact:
-            font = UIFont.systemFont(ofSize: 17, weight: .bold)
+            font = UIFont(name: "FiraSans-Bold", size: 17) ?? UIFont.systemFont(ofSize: 17, weight: .bold)
         case .normal:
             font = UIFontMetrics(forTextStyle: .headline)
-                .scaledFont(for: .systemFont(ofSize: 17, weight: .bold))
+                .scaledFont(for: UIFont(name: "FiraSans-Bold", size: 17) ?? UIFont.systemFont(ofSize: 17, weight: .bold))
         default:
             break
         }

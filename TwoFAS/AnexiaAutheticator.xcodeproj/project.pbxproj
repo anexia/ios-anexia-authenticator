@@ -1313,6 +1313,12 @@
 		C2FDEE63279CC37E002CAB9E /* CameraScannerFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDEE62279CC37E002CAB9E /* CameraScannerFlowController.swift */; };
 		C2FF3EEA27B1A81100642FA4 /* CollectionViewDelegatee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF3EE927B1A81100642FA4 /* CollectionViewDelegatee.swift */; };
 		C2FF3EEC27B1CF0100642FA4 /* IconSelectorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF3EEB27B1CF0100642FA4 /* IconSelectorModels.swift */; };
+		E19DE1CA2CEF7C5600CBD39B /* FiraSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E19DE1C92CEF7C5600CBD39B /* FiraSans-Thin.ttf */; };
+		E19DE1CC2CEF7CA600CBD39B /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E19DE1CB2CEF7CA600CBD39B /* FiraSans-Regular.ttf */; };
+		E19DE1CE2CEF7DB900CBD39B /* FiraSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E19DE1CD2CEF7DB900CBD39B /* FiraSans-Light.ttf */; };
+		E19DE1D02CEF7DF900CBD39B /* FiraSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E19DE1CF2CEF7DF900CBD39B /* FiraSans-SemiBold.ttf */; };
+		E19DE1D22CEF7E3E00CBD39B /* FiraSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E19DE1D12CEF7E3E00CBD39B /* FiraSans-Medium.ttf */; };
+		E19DE1D42CEF7FA500CBD39B /* FiraSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E19DE1D32CEF7FA500CBD39B /* FiraSans-Bold.ttf */; };
 		E1A3FEB72CC7C4CD00DFB057 /* ServicePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3FEB62CC7C4CD00DFB057 /* ServicePresenter.swift */; };
 		E1A3FEB92CC7C4D200DFB057 /* ServiceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3FEB82CC7C4D200DFB057 /* ServiceInteractor.swift */; };
 		E1A3FEBB2CC7C53100DFB057 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3FEBA2CC7C53100DFB057 /* IntroductionView.swift */; };
@@ -2950,6 +2956,12 @@
 		C2FE36292517FF8D00035643 /* VoiceOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOver.swift; sourceTree = "<group>"; };
 		C2FF3EE927B1A81100642FA4 /* CollectionViewDelegatee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDelegatee.swift; sourceTree = "<group>"; };
 		C2FF3EEB27B1CF0100642FA4 /* IconSelectorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSelectorModels.swift; sourceTree = "<group>"; };
+		E19DE1C92CEF7C5600CBD39B /* FiraSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Thin.ttf"; sourceTree = "<group>"; };
+		E19DE1CB2CEF7CA600CBD39B /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
+		E19DE1CD2CEF7DB900CBD39B /* FiraSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Light.ttf"; sourceTree = "<group>"; };
+		E19DE1CF2CEF7DF900CBD39B /* FiraSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		E19DE1D12CEF7E3E00CBD39B /* FiraSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Medium.ttf"; sourceTree = "<group>"; };
+		E19DE1D32CEF7FA500CBD39B /* FiraSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Bold.ttf"; sourceTree = "<group>"; };
 		E1A3FEB62CC7C4CD00DFB057 /* ServicePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicePresenter.swift; sourceTree = "<group>"; };
 		E1A3FEB82CC7C4D200DFB057 /* ServiceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInteractor.swift; sourceTree = "<group>"; };
 		E1A3FEBA2CC7C53100DFB057 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
@@ -6871,6 +6883,7 @@
 		C2BDC6BF1FC1ABF600967D0E /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				E19DE1C82CEF7C2A00CBD39B /* Fonts */,
 				E1FCA3102BACD8E100D5AE78 /* GoogleService-Info.plist */,
 				C24E3E5B2AB8F13A008A7158 /* Guides */,
 				C2D17FF3291BB5D90072EBFD /* Generated */,
@@ -8144,6 +8157,19 @@
 			path = Flow;
 			sourceTree = "<group>";
 		};
+		E19DE1C82CEF7C2A00CBD39B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E19DE1C92CEF7C5600CBD39B /* FiraSans-Thin.ttf */,
+				E19DE1CB2CEF7CA600CBD39B /* FiraSans-Regular.ttf */,
+				E19DE1CD2CEF7DB900CBD39B /* FiraSans-Light.ttf */,
+				E19DE1CF2CEF7DF900CBD39B /* FiraSans-SemiBold.ttf */,
+				E19DE1D12CEF7E3E00CBD39B /* FiraSans-Medium.ttf */,
+				E19DE1D32CEF7FA500CBD39B /* FiraSans-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -9038,22 +9064,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19DE1D02CEF7DF900CBD39B /* FiraSans-SemiBold.ttf in Resources */,
 				E1A3FED22CC7D0E600DFB057 /* Localizable.strings in Resources */,
 				C29B9ADA2B1E859D00255A2C /* google.json in Resources */,
 				C230DB8C274710E5005E7060 /* icon_64.png in Resources */,
+				E19DE1D42CEF7FA500CBD39B /* FiraSans-Bold.ttf in Resources */,
 				C24E3E692AB8F15A008A7158 /* discord.json in Resources */,
+				E19DE1CE2CEF7DB900CBD39B /* FiraSans-Light.ttf in Resources */,
 				C225E612241CFCD10041C238 /* InfoPlist.strings in Resources */,
 				C23666841FB2644900989ACA /* LaunchScreen.storyboard in Resources */,
 				C29B9ADD2B1E859D00255A2C /* instagram.json in Resources */,
 				C24E3E652AB8F15A008A7158 /* rockstar_games.json in Resources */,
+				E19DE1CA2CEF7C5600CBD39B /* FiraSans-Thin.ttf in Resources */,
 				C24E3E682AB8F15A008A7158 /* epic_games.json in Resources */,
 				C24E3E6A2AB8F15A008A7158 /* amazon.json in Resources */,
 				C24E3E6B2AB8F15A008A7158 /* linkedin.json in Resources */,
 				E1FCA3112BACD8E200D5AE78 /* GoogleService-Info.plist in Resources */,
 				C29B9ADC2B1E859D00255A2C /* reddit.json in Resources */,
+				E19DE1CC2CEF7CA600CBD39B /* FiraSans-Regular.ttf in Resources */,
 				C23666811FB2644900989ACA /* Assets.xcassets in Resources */,
 				C24E3E662AB8F15A008A7158 /* universal.json in Resources */,
 				C24E3E672AB8F15A008A7158 /* twitter.json in Resources */,
+				E19DE1D22CEF7E3E00CBD39B /* FiraSans-Medium.ttf in Resources */,
 				C2D291DC2955FC9E0084FE1E /* Settings.bundle in Resources */,
 				C29B9ADB2B1E859D00255A2C /* paypal.json in Resources */,
 				C24E3E642AB8F15A008A7158 /* facebook.json in Resources */,

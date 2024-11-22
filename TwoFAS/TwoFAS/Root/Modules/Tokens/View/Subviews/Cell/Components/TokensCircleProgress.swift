@@ -158,12 +158,12 @@ final class TokensCircleProgress: UIView {
         self.kind = kind
         switch kind {
         case .compact:
-            let font = UIFont.monospacedDigitSystemFont(ofSize: 12, weight: .regular)
+            let font = UIFont(name: "FiraSans-Regular", size: 12) ?? UIFont.monospacedDigitSystemFont(ofSize: 12, weight: .regular)
             valueLabel.font = font
             sizeLabel.font = font
         case .normal:
             let font = UIFontMetrics(forTextStyle: .caption2)
-                .scaledFont(for: UIFont.monospacedDigitSystemFont(ofSize: 12, weight: .regular))
+                .scaledFont(for: UIFont(name: "FiraSans-Regular", size: 12) ?? UIFont.monospacedDigitSystemFont(ofSize: 12, weight: .regular))
             valueLabel.font = font
             sizeLabel.font = font
         default:

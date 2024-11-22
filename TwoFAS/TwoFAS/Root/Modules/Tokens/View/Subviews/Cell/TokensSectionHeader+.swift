@@ -209,7 +209,7 @@ extension TokensSectionHeader {
         private let label: UILabel = {
             let label = UILabel()
             label.font = UIFontMetrics(forTextStyle: .caption1)
-                .scaledFont(for: .systemFont(ofSize: 12, weight: .medium))
+                .scaledFont(for: UIFont(name: "FiraSans-Medium", size: 12) ?? UIFont.systemFont(ofSize: 12, weight: .medium))
             label.adjustsFontForContentSizeCategory = true
             label.numberOfLines = 1
             label.textAlignment = .center

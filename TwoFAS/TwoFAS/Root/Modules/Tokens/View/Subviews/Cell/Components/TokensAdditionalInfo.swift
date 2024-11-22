@@ -23,7 +23,7 @@ final class TokensAdditionalInfo: UIView {
     private let label: UILabel = {
         let label = UILabel()
         label.font = UIFontMetrics(forTextStyle: .body)
-            .scaledFont(for: .systemFont(ofSize: 17, weight: .medium))
+            .scaledFont(for: UIFont(name: "FiraSans-Medium", size: 17) ?? .systemFont(ofSize: 17, weight: .medium))
         label.adjustsFontForContentSizeCategory = true
         label.numberOfLines = 1
         label.lineBreakMode = .byTruncatingTail
@@ -54,13 +54,13 @@ final class TokensAdditionalInfo: UIView {
     func setKind(_ kind: TokensCellKind) {
         switch kind {
         case .compact:
-            label.font = UIFont.systemFont(ofSize: 13, weight: .medium)
+            label.font = UIFont(name: "FiraSans-Medium", size: 13) ?? UIFont.systemFont(ofSize: 13, weight: .medium)
         case .edit:
             label.font = UIFontMetrics(forTextStyle: .body)
-                .scaledFont(for: .systemFont(ofSize: 13, weight: .medium))
+                .scaledFont(for: UIFont(name: "FiraSans-Medium", size: 13) ?? UIFont.systemFont(ofSize: 13, weight: .medium))
         case .normal:
             label.font = UIFontMetrics(forTextStyle: .body)
-                .scaledFont(for: .systemFont(ofSize: 15, weight: .regular))
+                .scaledFont(for: UIFont(name: "FiraSans-Regular", size: 15) ?? UIFont.systemFont(ofSize: 15, weight: .regular))
         }
     }
     

@@ -152,18 +152,18 @@ enum Theme {
     }
     
     enum Fonts {
-        private static let syncCounter = UIFont.systemFont(ofSize: 60, weight: .thin)
-        private static let counter = UIFont.monospacedDigitSystemFont(ofSize: 12, weight: .regular)
-        private static let privateKey = UIFont.monospacedDigitSystemFont(ofSize: 50, weight: .thin)
-        private static let privateKeyMask = UIFont.monospacedSystemFont(ofSize: 43, weight: .regular)
-        private static let title = UIFont.systemFont(ofSize: 32, weight: .light)
-        private static let boldTitle = UIFont.systemFont(ofSize: 32, weight: .semibold)
-        private static let header = UIFont.systemFont(ofSize: 17, weight: .semibold)
-        private static let content = UIFont.systemFont(ofSize: 17, weight: .regular)
-        private static let description = UIFont.systemFont(ofSize: 14, weight: .regular)
-        private static let info = UIFont.systemFont(ofSize: 13, weight: .medium)
-        private static let note = UIFont.systemFont(ofSize: 12, weight: .regular)
-        private static let uuidInput = UIFont.monospacedSystemFont(ofSize: 16, weight: .medium)
+        private static let syncCounter = UIFont(name: "FiraSans-Thin", size: 60) ?? UIFont.systemFont(ofSize: 60, weight: .thin)
+        private static let counter = UIFont(name: "FiraSans-Regular", size: 12) ?? UIFont.monospacedDigitSystemFont(ofSize: 12, weight: .regular)
+        private static let privateKey = UIFont(name: "FiraSans-Thin", size: 50) ?? UIFont.monospacedDigitSystemFont(ofSize: 50, weight: .thin)
+        private static let privateKeyMask = UIFont(name: "FiraSans-Regular", size: 43) ?? UIFont.monospacedSystemFont(ofSize: 43, weight: .regular)
+        private static let title = UIFont(name: "FiraSans-Light", size: 32) ?? UIFont.systemFont(ofSize: 32, weight: .light)
+        private static let boldTitle = UIFont(name: "FiraSans-SemiBold", size: 32) ?? UIFont.systemFont(ofSize: 32, weight: .semibold)
+        private static let header = UIFont(name: "FiraSans-SemiBold", size: 17) ?? UIFont.systemFont(ofSize: 17, weight: .semibold)
+        private static let content = UIFont(name: "FiraSans-Regular", size: 17) ?? UIFont.systemFont(ofSize: 17, weight: .regular)
+        private static let description = UIFont(name: "FiraSans-Regular", size: 14) ?? UIFont.systemFont(ofSize: 14, weight: .regular)
+        private static let info = UIFont(name: "FiraSans-Medium", size: 13) ?? UIFont.systemFont(ofSize: 13, weight: .medium)
+        private static let note = UIFont(name: "FiraSans-Regular", size: 12) ?? UIFont.systemFont(ofSize: 12, weight: .regular)
+        private static let uuidInput = UIFont(name: "FiraSans-Medium", size: 16) ?? UIFont.monospacedSystemFont(ofSize: 16, weight: .medium)
         
         enum Form {
             static let title = Fonts.description
@@ -208,15 +208,15 @@ enum Theme {
             static let state = Fonts.description
         }
         
-        static let warning = UIFont.systemFont(ofSize: 13, weight: .medium)
-        static let iconLabel = UIFont.systemFont(ofSize: 13, weight: .bold)
-        static let iconLabelSmall = UIFont.systemFont(ofSize: 12, weight: .bold)
-        static let sectionHeader = UIFont.systemFont(ofSize: 13, weight: .regular)
-        static let iconLabelInputTitle = UIFont.systemFont(ofSize: 22, weight: .light)
-        static let tabBar = UIFont.systemFont(ofSize: 10, weight: .semibold)
-        static let introTitle = UIFont.systemFont(ofSize: 24, weight: .bold)
-        static let introContentSmall = UIFont.systemFont(ofSize: 13, weight: .regular)
-        static let orderTitle = UIFont.systemFont(ofSize: 18, weight: .bold)
+        static let warning = UIFont(name: "FiraSans-Medium", size: 13) ?? UIFont.systemFont(ofSize: 13, weight: .medium)
+        static let iconLabel = UIFont(name: "FiraSans-Bold", size: 13) ?? UIFont.systemFont(ofSize: 13, weight: .bold)
+        static let iconLabelSmall = UIFont(name: "FiraSans-Bold", size: 12) ?? UIFont.systemFont(ofSize: 12, weight: .bold)
+        static let sectionHeader = UIFont(name: "FiraSans-Regular", size: 13) ?? UIFont.systemFont(ofSize: 13, weight: .regular)
+        static let iconLabelInputTitle = UIFont(name: "FiraSans-Light", size: 22) ?? UIFont.systemFont(ofSize: 22, weight: .light)
+        static let tabBar = UIFont(name: "FiraSans-SemiBold", size: 10) ?? UIFont.systemFont(ofSize: 10, weight: .semibold)
+        static let introTitle = UIFont(name: "FiraSans-Bold", size: 24) ?? UIFont.systemFont(ofSize: 24, weight: .bold)
+        static let introContentSmall = UIFont(name: "FiraSans-Regular", size: 13) ?? UIFont.systemFont(ofSize: 13, weight: .regular)
+        static let orderTitle = UIFont(name: "FiraSans-Bold", size: 18) ?? UIFont.systemFont(ofSize: 18, weight: .bold)
     }
     
     enum Alpha {
