@@ -30,15 +30,8 @@ final class SettingsViewFooter: UIView {
     
     private var facebookButton: UIButton = {
         let button = UIButton()
-        // button.setImage(Asset.socialLargeFaceboook.image, for: .normal)
+        button.setImage(Asset.socialLargeFacebook.image, for: .normal)
         button.accessibilityLabel = T.Social.facebook
-        return button
-    }()
-    
-    private var youtubeButton: UIButton = {
-        let button = UIButton()
-        button.setImage(Asset.socialLargeYoutube.image, for: .normal)
-        button.accessibilityLabel = T.Social.youtube
         return button
     }()
     
@@ -49,9 +42,16 @@ final class SettingsViewFooter: UIView {
         return button
     }()
     
+    private var youtubeButton: UIButton = {
+        let button = UIButton()
+        button.setImage(Asset.socialLargeYoutube.image, for: .normal)
+        button.accessibilityLabel = T.Social.youtube
+        return button
+    }()
+    
     private var instagramButton: UIButton = {
         let button = UIButton()
-        // button.setImage(Asset.socialLargeInstagram.image, for: .normal)
+        button.setImage(Asset.socialLargeInstagram.image, for: .normal)
         button.accessibilityLabel = T.Social.instagram
         return button
     }()

@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "youtube.pdf",
+      "filename" : "youtube.svg",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "youtube 1.pdf",
+      "filename" : "youtube 1.svg",
       "idiom" : "universal"
     }
   ],

@@ -26,7 +26,12 @@ struct TrashSection: TableViewSection {
 
 struct TrashCell: Hashable {
     var icon: UIImage {
-        serviceData.icon
+        switch serviceData.iconType {
+        case .brand:
+            UIImage(named: Asset.logoGrid.name)!.scalePreservingAspectRatio(targetSize: CGSize(width: 48, height: 48))
+        default:
+            serviceData.icon
+        }
     }
     
     var title: String {

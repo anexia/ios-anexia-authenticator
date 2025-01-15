@@ -85,14 +85,8 @@ extension SettingsMenuPresenter {
                     title: T.Settings.appearance,
                     accessory: .arrow,
                     action: .navigation(navigatesTo: .appearance)
-                ),
-                .init(
-                    icon: Asset.settingsWidget.image,
-                    title: T.Settings.widgets,
-                    accessory: .toggle(kind: .widgets, isOn: areWidgetsOn)
                 )
-            ],
-            footer: T.Settings.displaySelectedServices
+            ]
         )
         
         let manageTokens = SettingsMenuSection(
@@ -136,7 +130,7 @@ extension SettingsMenuPresenter {
         ])
         
         if interactor.isBrowserExtensionAllowed {
-            menu.append(browerExtension)
+            // menu.append(browerExtension)
         }
         
         menu.append(contentsOf: [

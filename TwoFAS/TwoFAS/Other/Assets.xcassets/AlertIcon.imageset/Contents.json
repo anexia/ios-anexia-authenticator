@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "alert.pdf",
+      "filename" : "Alert.svg",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "alert-2.pdf",
+      "filename" : "Alert_DarkMode.svg",
       "idiom" : "universal"
     }
   ],

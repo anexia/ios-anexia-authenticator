@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "file_error.pdf",
+      "filename" : "FileError.svg",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "file_error-2.pdf",
+      "filename" : "FileError_DarkMode.svg",
       "idiom" : "universal"
     }
   ],

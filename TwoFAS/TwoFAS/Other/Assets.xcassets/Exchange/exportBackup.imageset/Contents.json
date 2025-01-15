@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "2fas_export.pdf",
+      "filename" : "Export.svg",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "2fas_export-2.pdf",
+      "filename" : "Export_DarkMode.svg",
       "idiom" : "universal"
     }
   ],

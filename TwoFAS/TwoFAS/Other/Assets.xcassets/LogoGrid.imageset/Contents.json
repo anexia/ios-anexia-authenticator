@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "LogoGrid.pdf",
+      "filename" : "download.svg",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "LogoGridDark.pdf",
+      "filename" : "download 1.svg",
       "idiom" : "universal"
     }
   ],

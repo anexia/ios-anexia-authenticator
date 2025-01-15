@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "2fas_import.pdf",
+      "filename" : "Import.svg",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "2fas_import-2.pdf",
+      "filename" : "Import_DarkMode.svg",
       "idiom" : "universal"
     }
   ],

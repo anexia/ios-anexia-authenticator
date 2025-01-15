@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "success.pdf",
+      "filename" : "Success.svg",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "success-2.pdf",
+      "filename" : "Success_DarkMode.svg",
       "idiom" : "universal"
     }
   ],

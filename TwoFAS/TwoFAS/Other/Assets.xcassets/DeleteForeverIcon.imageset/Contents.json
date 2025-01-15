@@ -1,29 +1,17 @@
 {
   "images" : [
     {
-      "alignment-insets" : {
-        "bottom" : 0,
-        "left" : 10,
-        "right" : -10,
-        "top" : 0
-      },
-      "filename" : "delete_confirm.pdf",
+      "filename" : "DeleteConfirm.svg",
       "idiom" : "universal"
     },
     {
-      "alignment-insets" : {
-        "bottom" : 0,
-        "left" : 10,
-        "right" : -10,
-        "top" : 0
-      },
       "appearances" : [
         {
           "appearance" : "luminosity",
           "value" : "dark"
         }
       ],
-      "filename" : "delete_confirm-2.pdf",
+      "filename" : "DeleteConfirm_DarkMode.svg",
       "idiom" : "universal"
     }
   ],

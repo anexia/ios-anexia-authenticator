@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "EmptyNotification.pdf",
+      "filename" : "EmptyNotification.svg",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "EmptyNotificationDark.pdf",
+      "filename" : "EmptyNotification_DarkMode.svg",
       "idiom" : "universal"
     }
   ],

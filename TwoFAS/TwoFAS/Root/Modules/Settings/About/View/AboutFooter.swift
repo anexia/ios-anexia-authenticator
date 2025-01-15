@@ -35,7 +35,7 @@ final class AboutFooter: UIView {
     
     private let image: UIImageView = {
         let image = Asset.aboutLogo.image
-        let imgView = UIImageView(image: image)
+        let imgView = UIImageView(image: image.scalePreservingAspectRatio(targetSize: .init(width: 32, height: 32)))
         imgView.contentMode = .right
         imgView.setContentHuggingPriority(.defaultHigh + 1, for: .horizontal)
         return imgView

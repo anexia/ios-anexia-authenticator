@@ -117,7 +117,7 @@ final class ComposeServiceIconTypeSelection: UITableViewCell {
     }
     
     func set(iconTypeID: IconTypeID, labelTitle: String, labelColor: TintColor, iconTypeName: IconTypeName) {
-        iconRenderer.image = ServiceIcon.for(iconTypeID: iconTypeID)
+        iconRenderer.image = UIImage(named: Asset.logoGrid.name)!.scalePreservingAspectRatio(targetSize: CGSize(width: 48, height: 48))
         brandIcon.accessibilityText = T.Voiceover.serviceIcon(iconTypeName)
         
         labelRenderer.setText(labelTitle)

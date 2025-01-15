@@ -638,7 +638,7 @@ private extension ServiceData {
     var iconTypeParsed: LogoType {
         switch iconType {
         case .brand:
-            return .image(ServiceIcon.for(iconTypeID: iconTypeID))
+            return .image(UIImage(named: Asset.logoGrid.name)!.scalePreservingAspectRatio(targetSize: CGSize(width: 48, height: 48)))
         case .label:
             return .label(labelTitle, labelColor)
         }

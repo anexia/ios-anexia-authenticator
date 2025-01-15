@@ -32,7 +32,7 @@ extension AboutPresenter {
                     title: T.Social.instagram,
                     accessory: .external,
                     action: .social(.instagram),
-                    icon: nil
+                    icon: Asset.socialInstagram.image
                 ),
                 .init(
                     title: T.Social.youtube,

@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "ImportArrowLigth.pdf",
+      "filename" : "004-Pfeil-rechts.svg",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "ImportArrowDark.pdf",
+      "filename" : "004-Pfeil-rechts 1.svg",
       "idiom" : "universal"
     }
   ],
