@@ -1,15 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "046-Verschluesselung.svg",
+      "filename" : "024-Laden.svg",
       "idiom" : "universal"
     }
   ],
   "info" : {
     "author" : "xcode",
     "version" : 1
-  },
-  "properties" : {
-    "template-rendering-intent" : "template"
   }
 }

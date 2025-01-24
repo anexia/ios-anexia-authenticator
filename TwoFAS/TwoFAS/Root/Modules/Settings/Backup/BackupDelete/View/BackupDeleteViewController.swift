@@ -41,9 +41,9 @@ final class BackupDeleteViewController: UIViewController {
         let spacing: CGFloat = 15
         let contentTop = MainContainerTopContentGenerator(placement: .centerHorizontallyLimitWidth, elements: [
             .view(view: spacer0),
-            .image(name: "backupDeleted", size: CGSize(width: 280, height: 200)),
+            .image(name: "DeleteForeverIcon", size: CGSize(width: 280, height: 200)),
             .extraSpacing,
-            .text(text: T.Backup.delete2fasBackup, style: MainContainerTextStyling.titleLight)
+            .text(text: T.Backup.delete2fasBackup, style: MainContainerTextStyling.titleDark)
         ])
         
         let contentMiddle = MainContainerMiddleContentGenerator(
@@ -56,10 +56,10 @@ final class BackupDeleteViewController: UIViewController {
                 name: "WarningIconLarge",
                 size: CGSize(width: 30,
                              height: 30),
-                kind: .template(color: Theme.Colors.Fill.backgroundLight)
+                kind: .template(color: Theme.Colors.Fill.theme)
             ),
             .extraSpacing(value: spacing),
-            .text(text: T.Backup.warningIntroduction, style: MainContainerTextStyling.noteLight),
+            .text(text: T.Backup.warningIntroduction, style: MainContainerTextStyling.note),
             .extraSpacing(value: spacing),
             .decoratedVerticalContainer(elements: [
                 .toggle(text: T.Backup.deleteTitle) { [weak self] value in
@@ -88,7 +88,7 @@ final class BackupDeleteViewController: UIViewController {
                     self?.presenter.handleCancel()
                 },
                 created: { button in
-                    button.apply(MainContainerButtonStyling.textOnDark.value)
+                    button.apply(MainContainerButtonStyling.text.value)
                 }
             )
         ])
@@ -103,7 +103,7 @@ final class BackupDeleteViewController: UIViewController {
         
         let vc = MainContainerViewController()
         vc.configure(with: config)
-        vc.view.backgroundColor = Theme.Colors.Fill.theme
+        vc.view.backgroundColor = UIColor.white
         
         NSLayoutConstraint.activate([
             spacer0.heightAnchor.constraint(equalTo: spacer1.heightAnchor)

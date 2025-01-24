@@ -114,6 +114,9 @@ final class MainRepositoryImpl: MainRepository {
         SyncInstance.migrateStoreIfNeeded()
         serviceMigration.migrateIfNeeded()
         
+        let realmMigration = RealmMigrationController(storageRepository: storage.storageRepository)
+        realmMigration.migrateIfNeeded()
+        
         let security = Security(biometric: protection.biometricAuth, codeStorage: protection.codeStorage)
                                                                 
         _ = MainRepositoryImpl(

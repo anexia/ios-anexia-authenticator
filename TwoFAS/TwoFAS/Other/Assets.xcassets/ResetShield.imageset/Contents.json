@@ -1,13 +1,7 @@
 {
   "images" : [
     {
-      "alignment-insets" : {
-        "bottom" : 18,
-        "left" : 0,
-        "right" : 0,
-        "top" : 0
-      },
-      "filename" : "ResetShield.pdf",
+      "filename" : "download.svg",
       "idiom" : "universal"
     },
     {
@@ -17,7 +11,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "ResetShieldDark.pdf",
+      "filename" : "download 1.svg",
       "idiom" : "universal"
     }
   ],

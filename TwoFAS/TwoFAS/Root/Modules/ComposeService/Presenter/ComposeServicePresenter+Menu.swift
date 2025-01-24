@@ -83,11 +83,6 @@ extension ComposeServicePresenter {
                 ),
                 .init(
                     kind: .navigate(
-                        .init(kind: .brandIcon, isEnabled: isBrandIconEnabled, accessory: nil)
-                    )
-                ),
-                .init(
-                    kind: .navigate(
                         .init(kind: .label, isEnabled: isLabelEnabled, accessory: nil)
                     )
                 ),
@@ -122,7 +117,7 @@ extension ComposeServicePresenter {
         
         if interactor.actionType == .edit {
             if interactor.isBrowserExtensionAllowed {
-                array.append(webExtension)
+                // array.append(webExtension)
             }
             array.append(remove)
         }

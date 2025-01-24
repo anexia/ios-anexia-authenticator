@@ -37,14 +37,14 @@ final class DeleteServiceViewController: UIViewController {
     
     func generate() -> UIViewController {
         let contentTop = MainContainerTopContentGenerator(placement: .centerHorizontallyLimitWidth, elements: [
-            .text(text: T.Commons.warning.uppercased(), style: MainContainerTextStyling.titleLight),
+            .text(text: T.Commons.warning.uppercased(), style: MainContainerTextStyling.titleDark),
             .extraSpacing,
             .centeredImage(image: Asset.deleteForeverIcon.image)
         ])
         
         let contentMiddle = MainContainerMiddleContentGenerator(placement: .centerHorizontallyLimitWidth, elements: [
             .noSpacingContainer(elements: [
-                .text(text: T.Tokens.tokenNotPossibleToRestore, style: MainContainerTextStyling.contentLight)
+                .text(text: T.Tokens.tokenNotPossibleToRestore, style: MainContainerTextStyling.contentDark)
             ])
         ])
         
@@ -70,7 +70,7 @@ final class DeleteServiceViewController: UIViewController {
             .textButton(
                 text: T.Commons.cancel,
                 callback: { [weak self] in self?.presenter.handleCancel() },
-                created: { button in button.apply(MainContainerButtonStyling.textOnDark.value) }
+                created: { button in button.apply(MainContainerButtonStyling.text.value) }
             )
         ])
         
@@ -84,7 +84,6 @@ final class DeleteServiceViewController: UIViewController {
         
         let vc = MainContainerViewController()
         vc.configure(with: config)
-        vc.view.backgroundColor = Theme.Colors.Fill.theme
         
         return vc
     }

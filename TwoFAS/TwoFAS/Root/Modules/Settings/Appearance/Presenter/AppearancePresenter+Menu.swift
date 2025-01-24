@@ -80,7 +80,7 @@ extension AppearancePresenter {
             title: T.Settings.listStyle,
             cells: [
                 .init(
-                    icon: UIImage(systemName: "rectangle.grid.1x2.fill")?
+                    icon: UIImage(named: Asset.listDefault.name)?
                         .apply(Theme.Colors.Fill.theme)?
                         .scalePreservingAspectRatio(targetSize: Theme.Metrics.settingsSmallIconSize),
                     title: T.Settings.listStyleOptionDefault,
@@ -88,7 +88,7 @@ extension AppearancePresenter {
                     kind: .defaultList
                 ),
                 .init(
-                    icon: UIImage(systemName: "rectangle.grid.2x2.fill")?
+                    icon: UIImage(named: Asset.listCompact.name)?
                         .apply(Theme.Colors.Fill.theme)?
                         .scalePreservingAspectRatio(targetSize: Theme.Metrics.settingsSmallIconSize),
                     title: T.Settings.listStyleOptionCompact,
@@ -103,7 +103,7 @@ extension AppearancePresenter {
             title: nil,
             cells: [
                 .init(
-                    icon: UIImage(systemName: "eye.fill")?
+                    icon: UIImage(named: Asset.passwordHide.name)?
                         .apply(Theme.Colors.Fill.theme)?
                         .scalePreservingAspectRatio(targetSize: Theme.Metrics.settingsSmallIconSize),
                     title: T.Settings.hideTokensTitle,
