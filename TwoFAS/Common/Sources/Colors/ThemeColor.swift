@@ -31,6 +31,7 @@ public enum ThemeColor {
     public static let tableSeparator = UIColor(named: "TableDivider", in: bundle, compatibleWith: nil)!
     public static let highlighed = UIColor(named: "ColorHighlighed", in: bundle, compatibleWith: nil)!
     public static let theme = UIColor(named: "ColorTheme", in: bundle, compatibleWith: nil)!
+    public static let themeSecondary = UIColor(named: "ColorThemeSecondary", in: bundle, compatibleWith: nil)!
     public static let divider = UIColor(named: "ColorDivider", in: bundle, compatibleWith: nil)!
     public static let primary = UIColor(named: "ColorPrimary", in: bundle, compatibleWith: nil)!
     public static let secondary = UIColor(named: "ColorSecondary", in: bundle, compatibleWith: nil)!

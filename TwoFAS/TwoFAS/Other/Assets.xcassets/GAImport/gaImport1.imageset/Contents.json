@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "004-Pfeil-rechts.svg",
+      "filename" : "pfeil.png",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "004-Pfeil-rechts 1.svg",
+      "filename" : "pfeil 1.png",
       "idiom" : "universal"
     }
   ],

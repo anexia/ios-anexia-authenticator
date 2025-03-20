@@ -25,6 +25,7 @@ import Storage
 class RealmMigrationController {
     private let migrationKey = "RealmMigrationController"
     private let storageRepository: StorageRepository
+    var isAddServiceEnabled = false
     
     public init(storageRepository: StorageRepository) {
         self.storageRepository = storageRepository
@@ -66,25 +67,28 @@ class RealmMigrationController {
         let oldAccounts = getDataFromRealmDb()
         
         for account in oldAccounts {
-            storageRepository.addService(
-                name: account.issuer,
-                secret: account.secret,
-                serviceTypeID: nil,
-                additionalInfo: account.username,
-                rawIssuer: account.issuer,
-                otpAuth: nil,
-                tokenPeriod: Period(rawValue: account.digits),
-                tokenLength: Digits(rawValue: account.digits) ?? Digits.defaultValue,
-                badgeColor: nil,
-                iconType: IconType.label,
-                iconTypeID: IconTypeID.default,
-                labelColor: .random,
-                labelTitle: account.issuer.twoLetters,
-                algorithm: Algorithm.SHA1,
-                counter: 0,
-                tokenType: TokenType.totp,
-                source: ServiceSource.manual
-            )
+            var isAddServiceEnabled: ServiceExistenceStatus = storageRepository.serviceExists(for: account.secret)
+            if (isAddServiceEnabled == .no) {
+                storageRepository.addService(
+                    name: account.issuer,
+                    secret: account.secret,
+                    serviceTypeID: nil,
+                    additionalInfo: account.username,
+                    rawIssuer: account.issuer,
+                    otpAuth: nil,
+                    tokenPeriod: Period(rawValue: account.period),
+                    tokenLength: Digits(rawValue: account.digits) ?? Digits.defaultValue,
+                    badgeColor: nil,
+                    iconType: IconType.label,
+                    iconTypeID: IconTypeID.default,
+                    labelColor: .random,
+                    labelTitle: account.issuer.twoLetters,
+                    algorithm: Algorithm.SHA1,
+                    counter: 0,
+                    tokenType: TokenType.totp,
+                    source: ServiceSource.manual
+                )
+            }
         }
         Log("Service successfuly migrated from Realm")
     }

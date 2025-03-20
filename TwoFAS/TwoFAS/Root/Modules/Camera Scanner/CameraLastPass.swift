@@ -44,8 +44,7 @@ struct CameraLastPass: View {
                         .frame(width: image0.size.width, height: image0.size.height)
                     Image(uiImage: image1)
                         .frame(width: image1.size.width, height: image1.size.height)
-                    Image(uiImage: image2)
-                        .frame(width: image2.size.width, height: image2.size.height)
+                    Image(uiImage: image2).resizable().frame(width: 90, height: 90)
                 }
                 .frame(maxHeight: .infinity, alignment: .center)
                 

@@ -26,6 +26,8 @@ public enum Period: Int, CaseIterable, Equatable, Identifiable {
     case period30 = 30
     case period60 = 60
     case period90 = 90
+    case period180 = 180
+    case period300 = 300
     
     public static var defaultValue: Self {
         .period30

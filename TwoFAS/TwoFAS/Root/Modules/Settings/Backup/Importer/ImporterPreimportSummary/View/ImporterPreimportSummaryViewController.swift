@@ -99,7 +99,7 @@ final class ImporterPreimportSummaryViewController: UIViewController {
         let views = [
             UIImageView(image: icon),
             UIImageView(image: Asset.gaImport1.image),
-            UIImageView(image: Asset.gaImport2.image)
+            UIImageView(image: Asset.gaImport2.image.scalePreservingAspectRatio(targetSize: CGSize(width: 90, height: 90)))
         ]
         views.forEach({
             $0.contentMode = .center

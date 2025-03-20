@@ -139,7 +139,7 @@ struct AddingServiceTokenView: View {
             
             Circle()
                 .trim(from: 0, to: $animationProgress.animation(animation).wrappedValue)
-                .stroke(Color(presenter.willChangeSoon ? ThemeColor.theme : ThemeColor.primary),
+                .stroke(Color(presenter.willChangeSoon ? ThemeColor.themeSecondary : ThemeColor.primary),
                         style: StrokeStyle(
                             lineWidth: 1,
                             lineCap: .round

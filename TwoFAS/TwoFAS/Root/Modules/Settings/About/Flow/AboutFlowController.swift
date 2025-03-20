@@ -94,8 +94,13 @@ extension AboutFlowController: AboutFlowControlling {
     }
 
     func toPrivacyPolicy() {
+        var urlString = "https://anexia.com/en/company/about-anexia/privacy-policy"
+        let locale = NSLocale.current.language.languageCode?.identifier
+        if (locale == "de") {
+            urlString = "https://anexia.com/de/unternehmen/ueber-anexia/datenschutz"
+        }
         UIApplication.shared.open(
-            URL(string: "https://2fas.com/privacy-policy/")!,
+            URL(string: urlString)!,
             options: [:],
             completionHandler: nil
         )

@@ -90,6 +90,7 @@ enum Theme {
             static let light = ThemeColor.light
             static let dark = ThemeColor.dark
             static let theme = ThemeColor.theme
+            static let themeSecondary = ThemeColor.themeSecondary
             static let themeHighlighted = ThemeColor.highlighed
             static let error = ThemeColor.theme
             static let inactive = ThemeColor.inactive
@@ -108,6 +109,7 @@ enum Theme {
             static let primaryLineDisabled = ThemeColor.inactive
             static let secondaryLine = ThemeColor.divider
             static let theme = ThemeColor.theme
+            static let themeSecondary = ThemeColor.themeSecondary
             static let separator = ThemeColor.tableSeparator
             static let systemSeparator = UIColor.separator
             static let secondarySeparator = ThemeColor.secondarySeparator
@@ -298,7 +300,7 @@ enum Theme {
         /// 310
         static let pageWidth: CGFloat = 310
         
-        static let settingsSmallIconSize: CGSize = .init(width: 16, height: 16)
+        static let settingsSmallIconSize: CGSize = .init(width: 24, height: 24)
     }
     
     enum Consts {

@@ -233,7 +233,7 @@ private class TokensTokenLabel: UILabel {
     }
     
     func mark() {
-        textColor = Theme.Colors.Text.theme
+        textColor = Theme.Colors.Text.themeSecondary
     }
     
     func clearMarking() {

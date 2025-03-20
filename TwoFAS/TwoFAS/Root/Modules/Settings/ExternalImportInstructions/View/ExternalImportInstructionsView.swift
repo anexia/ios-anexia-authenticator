@@ -42,9 +42,9 @@ struct ExternalImportInstructionsView: View {
                 HStack(spacing: spacing) {
                     sourceLogo
                     Asset.gaImport1.swiftUIImage
-                    Asset.gaImport2.swiftUIImage
+                    Asset.gaImport2.swiftUIImage.resizable().aspectRatio(contentMode: .fit)
                 }
-                .frame(minHeight: minIconSpaceHeight, alignment: .center)
+                .frame(height: minIconSpaceHeight, alignment: .center)
                 Text(sourceName)
                     .font(.title)
                     .multilineTextAlignment(.center)
