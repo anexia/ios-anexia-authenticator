@@ -50,7 +50,7 @@ final class CloudKit {
     
     let zoneID = CKRecordZone.ID(zoneName: "Vault1", ownerName: CKCurrentUserDefaultName)
     
-    private let containerIdentifier = "iCloud.at.anexia.authenticator.Vault"
+    private let containerIdentifier = "iCloud.at.anexia.authenticator.icloud"
     private let notificationIdentifier = "Vault1Modified"
     private let errorParser = CloudKitErrorParser()
     

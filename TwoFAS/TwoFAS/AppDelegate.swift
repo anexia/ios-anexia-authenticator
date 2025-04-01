@@ -18,7 +18,6 @@
 //
 
 import UIKit
-import FirebaseMessaging
 import Common
 import Data
 

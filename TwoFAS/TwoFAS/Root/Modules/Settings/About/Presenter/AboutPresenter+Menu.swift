@@ -59,6 +59,7 @@ extension AboutPresenter {
                     icon: Asset.socialFacebook.image
                 )
             ]),
+            /*
             .init(
                 title: T.Settings.aboutCrashOptoutTitle,
                 cells: [
@@ -70,6 +71,7 @@ extension AboutPresenter {
                 ],
                 footer: T.Settings.enableCrashlyticsDescription
             )
+             */
         ]
     }
 }

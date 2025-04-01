@@ -94,10 +94,10 @@ extension AboutFlowController: AboutFlowControlling {
     }
 
     func toPrivacyPolicy() {
-        var urlString = "https://anexia.com/en/company/about-anexia/privacy-policy"
+        var urlString = "https://anexia.com/en/company/about-anexia/privacy-policy/information-on-data-processing-regarding-the-anexia-authenticator-app"
         let locale = NSLocale.current.language.languageCode?.identifier
         if (locale == "de") {
-            urlString = "https://anexia.com/de/unternehmen/ueber-anexia/datenschutz"
+            urlString = "https://anexia.com/de/unternehmen/ueber-anexia/datenschutz/datenschutzerklaerung-authentificator-app"
         }
         UIApplication.shared.open(
             URL(string: urlString)!,

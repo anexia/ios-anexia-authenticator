@@ -30,8 +30,8 @@ final class FCM: NSObject, MessagingDelegate, FCMHandlerProtocol {
     }
     
     func enableFCM() {
-        FirebaseApp.configure()
-        initializeFCM()
+        // FirebaseApp.configure()
+        // initializeFCM()
     }
     
     func enableCrashlytics(_ enable: Bool) {
