@@ -31,7 +31,7 @@ struct AddingServiceTOTPTimerView: View {
             .multilineTextAlignment(.center)
             .fontWeight(.medium)
             .foregroundColor(Color(
-                willChangeSoon ? ThemeColor.themeSecondary : ThemeColor.primary
+                willChangeSoon ? ThemeColor.warningColor : ThemeColor.primary
             ))
     }
 }

@@ -27,7 +27,7 @@ struct AddingServiceTokenValueView: View {
     var body: some View {
         Text(text)
             .foregroundColor(Color(
-                willChangeSoon ? ThemeColor.themeSecondary : ThemeColor.primary
+                willChangeSoon ? ThemeColor.warningColor : ThemeColor.primary
             ))
             .font(Font(Theme.Fonts.Counter.syncCounter))
             .minimumScaleFactor(0.5)

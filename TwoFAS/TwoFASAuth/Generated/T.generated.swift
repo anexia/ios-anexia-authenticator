@@ -32,10 +32,10 @@ internal enum T {
   internal static let backupNoticeCta = T.tr("Localizable", "backup_notice_cta", fallback: "Turn On")
   /// Maybe Later
   internal static let backupNoticeLater = T.tr("Localizable", "backup_notice_later", fallback: "Maybe Later")
-  /// Enable Anexia Authenticator Backup. In the event of a reset or loss of your phone, you will be able to restore all your tokens.
-  internal static let backupNoticeMsg = T.tr("Localizable", "backup_notice_msg", fallback: "Enable Anexia Authenticator Backup. In the event of a reset or loss of your phone, you will be able to restore all your tokens.")
-  /// Anexia Authenticator Backup
-  internal static let backupNoticeTitle = T.tr("Localizable", "backup_notice_title", fallback: "Anexia Authenticator Backup")
+  /// Enable Anexia Authenticator backup. In the event of a reset or loss of your phone, you will be able to restore all your tokens.
+  internal static let backupNoticeMsg = T.tr("Localizable", "backup_notice_msg", fallback: "Enable Anexia Authenticator backup. In the event of a reset or loss of your phone, you will be able to restore all your tokens.")
+  /// Anexia Authenticator backup
+  internal static let backupNoticeTitle = T.tr("Localizable", "backup_notice_title", fallback: "Anexia Authenticator backup")
   /// Google account
   internal static let backupSettingsAccountTitle = T.tr("Localizable", "backup_settings_account_title", fallback: "Google account")
   /// If you delete this file from your Google Drive, synchronization on all synchronized devices will be disabled, and tokens will remain only on this and other devices via local storage.
@@ -181,8 +181,8 @@ internal enum T {
   internal static func pastDurationWeeks(_ p1: Int) -> String {
     return T.tr("Localizable", "past_duration_weeks", p1, fallback: "%d week ago")
   }
-  /// Enable Anexia Authenticator Backup & Sync to ensure you never get locked out, even if you lose your phone - your peace of mind in one tap! 🔐📱
-  internal static let periodicNotificationBackup = T.tr("Localizable", "periodic_notification_backup", fallback: "Enable Anexia Authenticator Backup & Sync to ensure you never get locked out, even if you lose your phone - your peace of mind in one tap! 🔐📱")
+  /// Enable Anexia Authenticator backup & sync to ensure you never get locked out, even if you lose your phone - your peace of mind in one tap! 🔐📱
+  internal static let periodicNotificationBackup = T.tr("Localizable", "periodic_notification_backup", fallback: "Enable Anexia Authenticator backup & sync to ensure you never get locked out, even if you lose your phone - your peace of mind in one tap! 🔐📱")
   /// Speed up your logins with the Anexia Authenticator Browser Extension! 🚀 Download now for a faster, more convenient authentication. 🌐✨
   internal static let periodicNotificationBrowserExtension = T.tr("Localizable", "periodic_notification_browser_extension", fallback: "Speed up your logins with the Anexia Authenticator Browser Extension! 🚀 Download now for a faster, more convenient authentication. 🌐✨")
   /// We're grateful for your support of Anexia Authenticator! 🌟 If you find our app helpful, consider making a donation to help us keep your digital world secure. Every bit helps! 🙏💙
@@ -260,14 +260,14 @@ internal enum T {
     internal static let installationInfoTitle = T.tr("Localizable", "appleWatch__installation_info_title", fallback: "Anexia Authenticator Apple Watch app installation")
     /// Ensure your iCloud Sync is enabled
     internal static let installationSecondStep = T.tr("Localizable", "appleWatch__installation_second_step", fallback: "Ensure your iCloud Sync is enabled")
-    /// Go to Anexia Authenticator Backup settings
-    internal static let installationSecondStepLink = T.tr("Localizable", "appleWatch__installation_second_step_link", fallback: "Go to Anexia Authenticator Backup settings")
+    /// Go to Anexia Authenticator backup settings
+    internal static let installationSecondStepLink = T.tr("Localizable", "appleWatch__installation_second_step_link", fallback: "Go to Anexia Authenticator backup settings")
   }
   internal enum Backup {
-    /// Anexia Authenticator Backup
-    internal static let _2fasBackup = T.tr("Localizable", "backup__2fas_backup", fallback: "Anexia Authenticator Backup")
-    /// Anexia Authenticator Backup will be disabled to protect its integrity
-    internal static let backupDisabledTitle = T.tr("Localizable", "backup__backup_disabled_title", fallback: "Anexia Authenticator Backup will be disabled to protect its integrity")
+    /// Anexia Authenticator backup
+    internal static let _2fasBackup = T.tr("Localizable", "backup__2fas_backup", fallback: "Anexia Authenticator backup")
+    /// Anexia Authenticator backup will be disabled to protect its integrity
+    internal static let backupDisabledTitle = T.tr("Localizable", "backup__backup_disabled_title", fallback: "Anexia Authenticator backup will be disabled to protect its integrity")
     /// Set a password for this backup file
     internal static let backupFilePasswordTitle = T.tr("Localizable", "backup__backup_file_password_title", fallback: "Set a password for this backup file")
     /// Backup removal
@@ -278,8 +278,8 @@ internal enum T {
     internal static let chooseAntotherFile = T.tr("Localizable", "backup__choose_antother_file", fallback: "Choose another file")
     /// Cloud Backup
     internal static let cloudBackup = T.tr("Localizable", "backup__cloud_backup", fallback: "Cloud Backup")
-    /// Delete Anexia Authenticator Backup
-    internal static let delete2fasBackup = T.tr("Localizable", "backup__delete_2fas_backup", fallback: "Delete Anexia Authenticator Backup")
+    /// Delete Anexia Authenticator backup
+    internal static let delete2fasBackup = T.tr("Localizable", "backup__delete_2fas_backup", fallback: "Delete Anexia Authenticator backup")
     /// Google Sync will be disabled. Your tokens will remain locally, but the Anexia Authenticator app will be logged out from your Google Account on this and your synced other devices.
     internal static let deleteFileMsg = T.tr("Localizable", "backup__delete_file_msg", fallback: "Google Sync will be disabled. Your tokens will remain locally, but the Anexia Authenticator app will be logged out from your Google Account on this and your synced other devices.")
     /// Delete your backup file from Google Drive?
@@ -310,8 +310,8 @@ internal enum T {
     internal static let exportToFile = T.tr("Localizable", "backup__export_to_file", fallback: "Export to file")
     /// File Backup
     internal static let fileBackup = T.tr("Localizable", "backup__file_backup", fallback: "File Backup")
-    /// Use File Backup for offline backup of your tokens.
-    internal static let fileBackupOfflineTitle = T.tr("Localizable", "backup__file_backup_offline_title", fallback: "Use File Backup for offline backup of your tokens.")
+    /// Use file backup for offline backup of your tokens.
+    internal static let fileBackupOfflineTitle = T.tr("Localizable", "backup__file_backup_offline_title", fallback: "Use file backup for offline backup of your tokens.")
     /// File error!
     internal static let fileError = T.tr("Localizable", "backup__file_error", fallback: "File error!")
     /// Google Drive has been disabled by the user
@@ -414,8 +414,8 @@ internal enum T {
     internal static let userOverQuotaIcloud = T.tr("Localizable", "backup__user_over_quota_icloud", fallback: "User is over quota on iCloud")
     /// Verify PIN
     internal static let verifyPin = T.tr("Localizable", "backup__verify_pin", fallback: "Verify PIN")
-    /// Warning! If you delete Anexia Authenticator Backup, you will also erase all tokens from other devices synced with this account. To preserve the tokens on other devices, please ensure that you've turned off the Anexia Authenticator Backup before the deletion.
-    internal static let warningIntroduction = T.tr("Localizable", "backup__warning_introduction", fallback: "Warning! If you delete Anexia Authenticator Backup, you will also erase all tokens from other devices synced with this account. To preserve the tokens on other devices, please ensure that you've turned off the Anexia Authenticator Backup before the deletion.")
+    /// Warning! If you delete Anexia Authenticator backup, you will also erase all tokens from other devices synced with this account. To preserve the tokens on other devices, please ensure that you've turned off the Anexia Authenticator backup before the deletion.
+    internal static let warningIntroduction = T.tr("Localizable", "backup__warning_introduction", fallback: "Warning! If you delete Anexia Authenticator backup, you will also erase all tokens from other devices synced with this account. To preserve the tokens on other devices, please ensure that you've turned off the Anexia Authenticator backup before the deletion.")
   }
   internal enum Browser {
     /// Do you want to share the 2FA token for
@@ -626,8 +626,8 @@ internal enum T {
     internal static let retry = T.tr("Localizable", "commons__retry", fallback: "Retry")
     /// Save
     internal static let save = T.tr("Localizable", "commons__save", fallback: "Save")
-    /// Scan QR Code
-    internal static let scanQrCode = T.tr("Localizable", "commons__scan_qr_code", fallback: "Scan QR Code")
+    /// Scan QR code
+    internal static let scanQrCode = T.tr("Localizable", "commons__scan_qr_code", fallback: "Scan QR code")
     /// Search
     internal static let search = T.tr("Localizable", "commons__search", fallback: "Search")
     /// Send
@@ -778,8 +778,8 @@ internal enum T {
     internal static let lastpassTitle = T.tr("Localizable", "externalimport__lastpass_title", fallback: "Importing 2FA tokens from LastPass app")
     /// However, there are no services that could be imported.
     internal static let noTokensMsg = T.tr("Localizable", "externalimport__no_tokens_msg", fallback: "However, there are no services that could be imported.")
-    /// Use the "Export OTPs to ZIP archive" option in Raivo's Settings, save a ZIP file, extract it and import the JSON file using the "Choose JSON file" button.
-    internal static let raivoMsg = T.tr("Localizable", "externalimport__raivo_msg", fallback: "Use the \"Export OTPs to ZIP archive\" option in Raivo's Settings, save a ZIP file, extract it and import the JSON file using the \"Choose JSON file\" button.")
+    /// Use the "Export OTPs to ZIP archive" option in Raivo's settings, save a ZIP file, extract it and import the JSON file using the "Choose JSON file" button.
+    internal static let raivoMsg = T.tr("Localizable", "externalimport__raivo_msg", fallback: "Use the \"Export OTPs to ZIP archive\" option in Raivo's settings, save a ZIP file, extract it and import the JSON file using the \"Choose JSON file\" button.")
     /// This JSON file allows importing tokens from Raivo.
     internal static let raivoSuccessMsg = T.tr("Localizable", "externalimport__raivo_success_msg", fallback: "This JSON file allows importing tokens from Raivo.")
     /// Importing 2FA tokens from Raivo app
@@ -902,8 +902,8 @@ internal enum T {
     internal static let serviceAlreadyModifiedTitle = T.tr("Localizable", "notifications__service_already_modified_title", fallback: "Service already modified in Backup")
     /// Service already removed from Backup
     internal static let serviceAlreadyRemovedTitle = T.tr("Localizable", "notifications__service_already_removed_title", fallback: "Service already removed from Backup")
-    /// Secret Key Copied
-    internal static let serviceKeyCopied = T.tr("Localizable", "notifications__service_key_copied", fallback: "Secret Key Copied")
+    /// Secret key Copied
+    internal static let serviceKeyCopied = T.tr("Localizable", "notifications__service_key_copied", fallback: "Secret key Copied")
     /// This token is already present on the list
     internal static let tokenAlreadyAdded = T.tr("Localizable", "notifications__token_already_added", fallback: "This token is already present on the list")
     /// Token Copied
@@ -912,8 +912,8 @@ internal enum T {
   internal enum Permissions {
     /// Camera Permission
     internal static let cameraPermission = T.tr("Localizable", "permissions__camera_permission", fallback: "Camera Permission")
-    /// Camera permission is required to scan QR Codes. If you want to use this feature go to Application Information and Permissions and Enable Camera.
-    internal static let cameraPermissionDescription = T.tr("Localizable", "permissions__camera_permission_description", fallback: "Camera permission is required to scan QR Codes. If you want to use this feature go to Application Information and Permissions and Enable Camera.")
+    /// Camera permission is required to scan QR codes. If you want to use this feature go to Application Information and Permissions and Enable Camera.
+    internal static let cameraPermissionDescription = T.tr("Localizable", "permissions__camera_permission_description", fallback: "Camera permission is required to scan QR codes. If you want to use this feature go to Application Information and Permissions and Enable Camera.")
     /// Open Settings
     internal static let openSettings = T.tr("Localizable", "permissions__open_settings", fallback: "Open Settings")
   }
@@ -976,8 +976,8 @@ internal enum T {
     internal static let _3Minutes = T.tr("Localizable", "settings__3_minutes", fallback: "3 minutes")
     /// 5 minutes
     internal static let _5Minutes = T.tr("Localizable", "settings__5_minutes", fallback: "5 minutes")
-    /// About
-    internal static let about = T.tr("Localizable", "settings__about", fallback: "About")
+    /// About us
+    internal static let about = T.tr("Localizable", "settings__about", fallback: "About us")
     /// Crash Reports
     internal static let aboutCrashOptoutTitle = T.tr("Localizable", "settings__about_crash_optout_title", fallback: "Crash Reports")
     /// Acknowledgements
@@ -1079,8 +1079,8 @@ internal enum T {
     internal static let pinCode = T.tr("Localizable", "settings__pin_code", fallback: "PIN code")
     /// Preferences
     internal static let preferences = T.tr("Localizable", "settings__preferences", fallback: "Preferences")
-    /// Privacy Policy
-    internal static let privacyPolicy = T.tr("Localizable", "settings__privacy_policy", fallback: "Privacy Policy")
+    /// Privacy policy
+    internal static let privacyPolicy = T.tr("Localizable", "settings__privacy_policy", fallback: "Privacy policy")
     /// Problem
     internal static let problem = T.tr("Localizable", "settings__problem", fallback: "Problem")
     /// Check out this awesome two-factor authentication app from Anexia Authenticator
@@ -1219,8 +1219,8 @@ internal enum T {
     internal static let addManualOther = T.tr("Localizable", "tokens__add_manual_other", fallback: "Other settings")
     /// (optional)
     internal static let addManualOtherOptional = T.tr("Localizable", "tokens__add_manual_other_optional", fallback: "(optional)")
-    /// Secret Key
-    internal static let addManualServiceKey = T.tr("Localizable", "tokens__add_manual_service_key", fallback: "Secret Key")
+    /// Secret key
+    internal static let addManualServiceKey = T.tr("Localizable", "tokens__add_manual_service_key", fallback: "Secret key")
     /// Service name
     internal static let addManualServiceName = T.tr("Localizable", "tokens__add_manual_service_name", fallback: "Service name")
     /// Pair the service with Anexia Authenticator
@@ -1283,10 +1283,10 @@ internal enum T {
     internal static let deleteToken = T.tr("Localizable", "tokens__delete_token", fallback: "Are you sure you want to delete the token for:")
     /// Do you want to permanently delete this 2FA service?
     internal static let doYouReallyWantToRemoveAllDevices = T.tr("Localizable", "tokens__do_you_really_want_to_remove_all_devices", fallback: "Do you want to permanently delete this 2FA service?")
-    /// Duplicated Secret Key
-    internal static let duplicatedPrivateKey = T.tr("Localizable", "tokens__duplicated_private_key", fallback: "Duplicated Secret Key")
-    /// Enter Service Name
-    internal static let enterServiceName = T.tr("Localizable", "tokens__enter_service_name", fallback: "Enter Service Name")
+    /// Duplicated secret key
+    internal static let duplicatedPrivateKey = T.tr("Localizable", "tokens__duplicated_private_key", fallback: "Duplicated secret key")
+    /// Enter service name
+    internal static let enterServiceName = T.tr("Localizable", "tokens__enter_service_name", fallback: "Enter service name")
     /// Add manually
     internal static let fabAddmanually = T.tr("Localizable", "tokens__fab_addmanually", fallback: "Add manually")
     /// Favorite Services
@@ -1319,8 +1319,8 @@ internal enum T {
     internal static let hotpNotSupported = T.tr("Localizable", "tokens__hotp_not_supported", fallback: "HOTP services aren't supported yet")
     /// Yes, I want to delete this service
     internal static let iWantToDeleteThisToken = T.tr("Localizable", "tokens__i_want_to_delete_this_token", fallback: "Yes, I want to delete this service")
-    /// Incorrect Secret key (only numbers 2 to 7, letters), max. 512 chars long
-    internal static let incorrectServiceKey = T.tr("Localizable", "tokens__incorrect_service_key", fallback: "Incorrect Secret key (only numbers 2 to 7, letters), max. 512 chars long")
+    /// Incorrect secret key (only numbers 2 to 7, letters), max. 512 chars long
+    internal static let incorrectServiceKey = T.tr("Localizable", "tokens__incorrect_service_key", fallback: "Incorrect secret key (only numbers 2 to 7, letters), max. 512 chars long")
     /// Initial counter
     internal static let initialCounter = T.tr("Localizable", "tokens__initial_counter", fallback: "Initial counter")
     /// Label
@@ -1335,8 +1335,8 @@ internal enum T {
     internal static let manageList = T.tr("Localizable", "tokens__manage_list", fallback: "Manage list")
     /// Move to Trash
     internal static let moveToTrash = T.tr("Localizable", "tokens__move_to_trash", fallback: "Move to Trash")
-    /// My Tokens
-    internal static let myTokens = T.tr("Localizable", "tokens__my_tokens", fallback: "My Tokens")
+    /// My tokens
+    internal static let myTokens = T.tr("Localizable", "tokens__my_tokens", fallback: "My tokens")
     /// Next token copied to clipboard!
     internal static let nextCopiedClipboard = T.tr("Localizable", "tokens__next_copied_clipboard", fallback: "Next token copied to clipboard!")
     /// Next Token: %@
@@ -1367,8 +1367,8 @@ internal enum T {
     internal static let orderMenuOptionUser = T.tr("Localizable", "tokens__order_menu_option_user", fallback: "Request icon as a user")
     /// Select the request method
     internal static let orderMenuTitle = T.tr("Localizable", "tokens__order_menu_title", fallback: "Select the request method")
-    /// Other methods?
-    internal static let otherMethodsHeader = T.tr("Localizable", "tokens__other_methods_header", fallback: "Other methods?")
+    /// Other methods
+    internal static let otherMethodsHeader = T.tr("Localizable", "tokens__other_methods_header", fallback: "Other methods")
     /// OTP Authentication
     internal static let otpAuthentication = T.tr("Localizable", "tokens__otp_authentication", fallback: "OTP Authentication")
     /// Personalization
@@ -1433,14 +1433,14 @@ internal enum T {
     internal static let selectGroup = T.tr("Localizable", "tokens__select_group", fallback: "Select group")
     /// Select Service
     internal static let selectService = T.tr("Localizable", "tokens__select_service", fallback: "Select Service")
-    /// Service could not be added because Secret Key is invalid. Try again.
-    internal static let serviceAddError = T.tr("Localizable", "tokens__service_add_error", fallback: "Service could not be added because Secret Key is invalid. Try again.")
-    /// Service with this Secret Key already exists. Do you want to override it?
-    internal static let serviceAlreadyExists = T.tr("Localizable", "tokens__service_already_exists", fallback: "Service with this Secret Key already exists. Do you want to override it?")
+    /// Service could not be added because secret key is invalid. Try again.
+    internal static let serviceAddError = T.tr("Localizable", "tokens__service_add_error", fallback: "Service could not be added because secret key is invalid. Try again.")
+    /// Service with this secret key already exists. Do you want to override it?
+    internal static let serviceAlreadyExists = T.tr("Localizable", "tokens__service_already_exists", fallback: "Service with this secret key already exists. Do you want to override it?")
     /// Service Information
     internal static let serviceInformation = T.tr("Localizable", "tokens__service_information", fallback: "Service Information")
-    /// Secret Key
-    internal static let serviceKey = T.tr("Localizable", "tokens__service_key", fallback: "Secret Key")
+    /// Secret key
+    internal static let serviceKey = T.tr("Localizable", "tokens__service_key", fallback: "Secret key")
     /// Secret key from scanned code is already used in %@. You're probably scanning it again
     internal static func serviceKeyAlreadyUsedTitle(_ p1: Any) -> String {
       return T.tr("Localizable", "tokens__service_key_already_used_title", String(describing: p1), fallback: "Secret key from scanned code is already used in %@. You're probably scanning it again")
@@ -1451,8 +1451,8 @@ internal enum T {
     internal static let serviceKeyInvalidFormat = T.tr("Localizable", "tokens__service_key_invalid_format", fallback: "Key has an invalid format")
     /// Key is too short. Minimum 4 characters
     internal static let serviceKeyToShort = T.tr("Localizable", "tokens__service_key_to_short", fallback: "Key is too short. Minimum 4 characters")
-    /// Service Name
-    internal static let serviceName = T.tr("Localizable", "tokens__service_name", fallback: "Service Name")
+    /// Service name
+    internal static let serviceName = T.tr("Localizable", "tokens__service_name", fallback: "Service name")
     /// Unfortunately, we don't know that service. How would you like to name it?
     internal static let serviceNameUnknownTitle = T.tr("Localizable", "tokens__service_name_unknown_title", fallback: "Unfortunately, we don't know that service. How would you like to name it?")
     /// Sorry, service not found
@@ -1461,10 +1461,10 @@ internal enum T {
     internal static let serviceUnsavedChanges = T.tr("Localizable", "tokens__service_unsaved_changes", fallback: "Do you want to discard your changes?")
     /// Unsaved changes
     internal static let serviceUnsavedChangesTitle = T.tr("Localizable", "tokens__service_unsaved_changes_title", fallback: "Unsaved changes")
-    /// Show Secret Key
-    internal static let showServiceKey = T.tr("Localizable", "tokens__show_service_key", fallback: "Show Secret Key")
-    /// Your Secret key is protected. Please add a PIN or Fingerprint lock to see it.
-    internal static let showServiceKeySetupLock = T.tr("Localizable", "tokens__show_service_key_setup_lock", fallback: "Your Secret key is protected. Please add a PIN or Fingerprint lock to see it.")
+    /// Show secret key
+    internal static let showServiceKey = T.tr("Localizable", "tokens__show_service_key", fallback: "Show secret key")
+    /// Your secret key is protected. Please add a PIN or Fingerprint lock to see it.
+    internal static let showServiceKeySetupLock = T.tr("Localizable", "tokens__show_service_key_setup_lock", fallback: "Your secret key is protected. Please add a PIN or Fingerprint lock to see it.")
     /// You will not be able to sign in to your %1$@ account without this token, as long as you have second factor authentication for %2$@ turned on.
     internal static func signInNotPossibleTitle(_ p1: Any, _ p2: Any) -> String {
       return T.tr("Localizable", "tokens__sign_in_not_possible_title", String(describing: p1), String(describing: p2), fallback: "You will not be able to sign in to your %1$@ account without this token, as long as you have second factor authentication for %2$@ turned on.")
@@ -1493,8 +1493,8 @@ internal enum T {
     internal static let tryAgain = T.tr("Localizable", "tokens__try_again", fallback: "OK, let's try again")
     /// Take another try with a different search term
     internal static let tryDifferentSearchTerm = T.tr("Localizable", "tokens__try_different_search_term", fallback: "Take another try with a different search term")
-    /// Type Service Name
-    internal static let typeServiceName = T.tr("Localizable", "tokens__type_service_name", fallback: "Type Service Name")
+    /// Type service name
+    internal static let typeServiceName = T.tr("Localizable", "tokens__type_service_name", fallback: "Type service name")
     /// Unlock and retype this token
     internal static let unlockAndRetypeTokenTitle = T.tr("Localizable", "tokens__unlock_and_retype_token_title", fallback: "Unlock and retype this token")
     /// Use the "+" button to add a new service
@@ -1519,8 +1519,8 @@ internal enum T {
     internal static func badgeColor(_ p1: Any) -> String {
       return T.tr("Localizable", "voiceover__badge_color", String(describing: p1), fallback: "Badge color: %@")
     }
-    /// Copy Secret Key
-    internal static let copyServiceKey = T.tr("Localizable", "voiceover__copy_service_key", fallback: "Copy Secret Key")
+    /// Copy Secret key
+    internal static let copyServiceKey = T.tr("Localizable", "voiceover__copy_service_key", fallback: "Copy Secret key")
     /// Delete button
     internal static let deleteButton = T.tr("Localizable", "voiceover__delete_button", fallback: "Delete button")
     /// Dismissing
@@ -1533,8 +1533,8 @@ internal enum T {
     internal static let noSearchResults = T.tr("Localizable", "voiceover__no_search_results", fallback: "No search results")
     /// Not selected
     internal static let notSelected = T.tr("Localizable", "voiceover__not_selected", fallback: "Not selected")
-    /// This field contains a hidden Secret Key. To reveal it, use the Show button. It will only work if you have set up the apps PIN for the lock screen
-    internal static let revealHiddenSecretKeyButtonTitle = T.tr("Localizable", "voiceover__reveal_hidden_secret_key_button_title", fallback: "This field contains a hidden Secret Key. To reveal it, use the Show button. It will only work if you have set up the apps PIN for the lock screen")
+    /// This field contains a hidden Secret key. To reveal it, use the Show button. It will only work if you have set up the apps PIN for the lock screen
+    internal static let revealHiddenSecretKeyButtonTitle = T.tr("Localizable", "voiceover__reveal_hidden_secret_key_button_title", fallback: "This field contains a hidden Secret key. To reveal it, use the Show button. It will only work if you have set up the apps PIN for the lock screen")
     /// Counter with seconds left to token change
     internal static let secondsLeftCounterTitle = T.tr("Localizable", "voiceover__seconds_left_counter_title", fallback: "Counter with seconds left to token change")
     /// Only numbers 2 to 9, letters. At least 4 characters
@@ -1555,8 +1555,8 @@ internal enum T {
     internal static func serviceName(_ p1: Any) -> String {
       return T.tr("Localizable", "voiceover__service_name", String(describing: p1), fallback: "Service name: %@")
     }
-    /// Show Secret Key
-    internal static let showServiceKey = T.tr("Localizable", "voiceover__show_service_key", fallback: "Show Secret Key")
+    /// Show Secret key
+    internal static let showServiceKey = T.tr("Localizable", "voiceover__show_service_key", fallback: "Show Secret key")
     /// Use Sort By to set service sorting
     internal static let sortByTitle = T.tr("Localizable", "voiceover__sort_by_title", fallback: "Use Sort By to set service sorting")
     /// Loading content

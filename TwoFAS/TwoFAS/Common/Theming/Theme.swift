@@ -94,6 +94,7 @@ enum Theme {
             static let themeHighlighted = ThemeColor.highlighed
             static let error = ThemeColor.theme
             static let inactive = ThemeColor.inactive
+            static let warning = ThemeColor.warningColor
         }
         
         enum Icon {
@@ -116,6 +117,7 @@ enum Theme {
             static let active = ThemeColor.activeLine
             static let selectionBorder = ThemeColor.selectionBorder
             static let secondaryDivider = ThemeColor.secondaryDivider
+            static let warning = ThemeColor.warningColor
         }
         
         enum Grid {

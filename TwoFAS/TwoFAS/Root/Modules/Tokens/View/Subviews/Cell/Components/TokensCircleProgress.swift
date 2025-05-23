@@ -119,7 +119,7 @@ final class TokensCircleProgress: UIView {
         setCircleColor(marked: true, animated: true)
         UIView.animate(withDuration: Theme.Animations.Timing.show) { [weak self] in
             
-            self?.valueLabel.textColor = Theme.Colors.Text.themeSecondary
+            self?.valueLabel.textColor = Theme.Colors.Text.warning
         }
         
         marked = true
@@ -173,7 +173,7 @@ final class TokensCircleProgress: UIView {
     }
     
     private func setCircleColor(marked: Bool, animated: Bool) {
-        let color = marked ? Theme.Colors.Line.themeSecondary : Theme.Colors.Line.primaryLine
+        let color = marked ? Theme.Colors.Line.warning : Theme.Colors.Line.primaryLine
         circle.setLineColor(color, animated: animated)
     }
     

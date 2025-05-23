@@ -11057,7 +11057,7 @@
 				CODE_SIGN_ENTITLEMENTS = AnexiaAutheticatorRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEPLOYMENT_POSTPROCESSING = NO;
 				DEVELOPMENT_TEAM = ADDH38ZULC;
@@ -11071,7 +11071,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_execute;
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 2.0.1;
 				MERGED_BINARY_TYPE = manual;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				OTHER_LDFLAGS = (
@@ -11103,7 +11103,7 @@
 				CODE_SIGN_ENTITLEMENTS = AnexiaAutheticatorRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				DEVELOPMENT_TEAM = ADDH38ZULC;
 				ENABLE_BITCODE = NO;
@@ -11116,7 +11116,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_execute;
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 2.0.1;
 				MERGED_BINARY_TYPE = manual;
 				OTHER_LDFLAGS = (
 					"$(OTHER_LDFLAGS)",
